@@ -1,0 +1,36 @@
+body {
+    width: 56.25rem;
+    margin: auto;
+    background: url("../img/woodBackground.jpg");
+    background-color: aqua;
+
+}
+h1, h2, h3 {
+    color: azure;
+}
+
+p {
+    font-size: 0.875rem;
+    text-align: justify;
+    color: azure;
+}
+p {
+    font-size: 0.875rem;
+    text-align: justify;
+    color: azure;
+}
+ol {
+    color: azure;
+}
+ul {
+    color: azure;
+}
+table, th, td {
+    border: 0.063rem solid azure;
+    border-collapse: collapse;
+    color: azure;
+}
+th, td {
+    padding: 0.313rem;
+    text-align: left;
+}
