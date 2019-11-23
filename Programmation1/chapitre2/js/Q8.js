@@ -4,14 +4,17 @@
 
 var tauxHoraire = Number(prompt("Entrez votre taux horaire"));
 var heureTravaille = Number(prompt("Entrez votre nombre d'heure Travaillé"));
-var salaire = tauxHoraire * heureTravaille;
-var heure
-if (heureTravaille > 40) {
-   salaire * 2
+var salaire;
+var salaireSupp;
+var heureEnReste = heureTravaille % 40;
+var paieSupp = tauxHoraire * 2;
 
+if (heureTravaille <= 40) {
+    salaire = tauxHoraire * heureTravaille;
+    console.log(salaire);
 }
-
-
- else if () {
-
+else if (heureTravaille > 40) {
+    salaire = tauxHoraire * heureTravaille;
+    salaireSupp = (heureEnReste * paieSupp) + salaire;
+    console.log(salaireSupp);
 }
