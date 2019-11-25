@@ -8,7 +8,7 @@ var totalReduction;
 
  if (montantAchat >= 200) {
      totalReduction = (montantAchat - reduction);
-     console.log("le montant de votre réduction est de " + totalReduction);
+     console.log("le montant de votre achat après réduction est de " + totalReduction);
 
  } else {
      console.log("La réduction ne s'applique pas");
