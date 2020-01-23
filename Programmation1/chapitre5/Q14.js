@@ -1,0 +1,1 @@
+/* Lire 12 nombres quelconques et vérifier si deux de ces nombres font une somme de 15. Si tel est le cas, affichez ces deux nombres.*/

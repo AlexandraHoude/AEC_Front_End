@@ -1,0 +1,2 @@
+/* C’est le temps du recensement. Nous aimerions connaître le nombre d’enfants que chaque famille possède et par la suite
+afficher un tableau de statistiques comme suit : Le nombre d’enfants est l’indice du tableau. */
