@@ -1,0 +1,89 @@
+font-face {
+    font-family: 'Covered By Your Grace', cursive;
+
+}
+
+font-face {
+    font-family: 'Dosis', sans-serif;
+}
+
+font-face {
+    font-family: 'Indie Flower', cursive;
+}
+
+font-face {
+    font-family: 'Cabin Sketch', cursive;
+}
+
+.display-2 {
+    font-family: 'Cabin Sketch', cursive;
+}
+
+.jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../image/banner.png");
+    text-align: center;
+    color: white;
+    margin-bottom: 0;
+}
+
+hr {
+    margin-bottom:30px;
+    margin-top:30px;
+    max-width: 50px;
+    border-width: 3px;
+    border-color: #B8CCB3;
+}
+
+.jumbotron2 {
+    text-align: center;
+    color: white;
+    background-color: #3d553f;
+}
+
+.display-6 {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+}
+
+.btn-lg {
+    border-radius: 1.4rem;
+}
+
+.btn-primary {
+    background-color: #B8CCB3;
+    border-color: 	#B8CCB3;
+}
+ .btn-primary:hover {
+     background-color: #2E8B57;
+     border-color: #2E8B57;
+ }
+
+ .hr2 {
+     margin-bottom:30px;
+     margin-top:30px;
+     max-width: 50px;
+     border-width: 3px;
+     border-color: #B8CCB3;
+ }
+
+ .btn-secondary {
+     background-color: #B8CCB3;
+     border-color: 	#B8CCB3;
+ }
+
+ .btn-secondary:hover {
+     background-color: #2E8B57;
+     border-color: #2E8B57;
+ }
+
+ p {
+     font-family: 'Dosis', sans-serif;
+ }
+
+ .icon {
+     font-family: 'Covered By Your Grace', cursive;
+ }
+
+ i {
+     color: #3d553f;
+ }
