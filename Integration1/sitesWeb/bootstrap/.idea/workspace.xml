@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="110cc660-d6ea-404d-ba78-18e8c64876ff" name="Default Changelist" comment="" />
+    <list default="true" id="110cc660-d6ea-404d-ba78-18e8c64876ff" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +37,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/AEC_Front_End/Programmation1/chapitre7" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Programmation1/chapitre7" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -74,6 +76,7 @@
       <workItem from="1580387898052" duration="14611000" />
       <workItem from="1580413432329" duration="6077000" />
       <workItem from="1580430942195" duration="255000" />
+      <workItem from="1580563762583" duration="23000" />
     </task>
     <servers />
   </component>

@@ -24,6 +24,7 @@ font-face {
     text-align: center;
     color: white;
     margin-bottom: 0;
+    border-radius: 0;
 }
 
 hr {
