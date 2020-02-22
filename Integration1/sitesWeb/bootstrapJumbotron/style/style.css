@@ -1,0 +1,20 @@
+p {
+    text-align: center;
+    color: white;
+}
+
+body {
+    background-image: url("../image/cKSllU3.jpg");
+    background-color: black;
+}
+
+.jumbotron {
+    background-color: black;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.SC2Logo {
+    text-align: center;
+}
+
