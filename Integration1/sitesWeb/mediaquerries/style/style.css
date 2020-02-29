@@ -57,3 +57,47 @@ p {
     background-size: cover;
 }
 
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+#section3 {
+    color: white;
+}
+
+.parallax3 {
+
+    background-image: url("../img/image3.jfif");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section4 {
+    background-color: hsla(179, 11%, 68%, 0.86);
+    padding: 20px 10px 20px;
+    border-radius: 0.625rem/1.875rem;
+}
+
+.tuile1 {
+    background-color: darkred;
+    box-shadow: 0 0 20px rgba(0,0,0,1.25);
+}
+
+.tuile2 {
+    background-color: darkgray;
+    box-shadow: 0 0 20px rgba(0,0,0,1.25);
+}
+
+.tuile3 {
+    background-color: olivedrab;
+    box-shadow: 0 0 20px rgba(0,0,0,1.25);
+}
