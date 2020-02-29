@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Yeon Sung';
+    src: url(https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap);
+}
+
+@font-face {
+    font-family: 'Permanent Marker';
+    src: url(https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap);
+}
+
+@font-face {
+    font-family: 'Saira Condensed';
+    src: url(https://fonts.googleapis.com/css?family=Saira+Condensed&display=swap);
+}
+
+
+html,body { margin:0; height:100%;}
+.parallax {
+
+    background-image: url("../img/image1.jfif");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text-block {
+    background-color: hsla(4, 96%, 23%, 0.71);
+    color: #ffffffd1;
+    border-radius: 0.625rem/1.875rem;
+
+}
+
+.YS {
+    font-family: "Yeon Sung";
+}
+
+.titre {
+    font-family: "Permanent Marker";
+    font-size: 4rem;
+    background-color: hsla(179, 11%, 68%, 0.71);
+    padding: 20px 10px 20px;
+
+}
+
+p {
+    font-family: "Saira Condensed";
+}
+
+.parallax2 {
+
+    background-image: url("../img/image2.jfif");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
