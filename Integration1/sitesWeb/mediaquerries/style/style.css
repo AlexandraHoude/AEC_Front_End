@@ -101,3 +101,40 @@ hr {
     background-color: olivedrab;
     box-shadow: 0 0 20px rgba(0,0,0,1.25);
 }
+
+@media screen and (max-width: 600px) {
+    .parallax {
+
+        background-image: url("../img/image4.PNG");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .text-block {
+        background-color: hsla(4, 96%, 23%, 0.71);
+        color: #ffffffd1;
+        border-radius: 0.625rem/1.875rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+    .titre {
+        font-family: "Permanent Marker";
+        font-size: 1.5rem;
+        background-color: hsla(179, 11%, 68%, 0.71);
+        padding: 20px 10px 20px;
+
+    }
+    .section2 {
+        display: none;
+    }
+
+    #section3 {
+        text-align: center;
+    }
+
+    .tuile2 {
+        display: none;
+    }
+}
