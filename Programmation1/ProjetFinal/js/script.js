@@ -19,6 +19,7 @@ $(".form1").on("submit", function(e) {
  */
 $('.btn-step-1').on("click", function () {
     motUsager = $('#motUsager').val();
+    motUsager = motUsager.toUpperCase();
 
     /* validation du nombre de caractère et des accents */
     if (motUsager.length < 3 || motUsager.length > 12) {
