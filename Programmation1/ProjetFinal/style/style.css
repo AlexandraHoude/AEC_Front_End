@@ -1,3 +1,72 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color:white;
+}
+
+
 .lettreImg {
-    background-image: url(".../background/bleu.jpg");
+    background-image: url("../background/noir.jpg");
+    width: 100%;
+    padding: 20px;
+}
+
+.color-box {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: 1px solid rgba(0, 0, 0, .2);
+}
+
+.blue {
+    background: #618AAA;
+}
+
+.pink {
+    background: #9A7587;
+}
+
+.red {
+    background: #8D1E24;
+}
+
+.white {
+    background: white;
+}
+
+.black {
+    background: black;
+}
+
+.navy {
+    background: #254680;
+}
+
+.grey {
+    background: #989a9e;
+}
+
+img {
+    border: white 2px solid;
+    padding: 0 !important;
+}
+
+@media print {
+    #etape-1, #etape-2, #etape-3, .lettre-modal{
+        display: none;
+    }
+
+    .lettreImg {
+        -webkit-print-color-adjust: exact;
+        width: 100% !important;
+        padding: 20px !important;
+    }
+
+    img {
+        max-width: 8%;
+        border: white 2px solid !important;
+        padding: 0 !important;
+    }
 }

@@ -1,33 +1,119 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Projet Final Prog1</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="style/style.css">
-</head>
-<body>
-<div class="container text-center mt-4">
-<h1>Créer votre mot ici</h1>
-</div>
-<div class="container text-left mt-4">
-    <i class="fas fa-keyboard fa-2x"></i>
-</div>
-<div class="container text-center">
-    <input class="form-control" type="text" placeholder="Entrez votre mot ici" id="motUsager">
-    <button type="submit" class="btn btn-outline-dark mt-2">Soumettre</button>
-</div>
-<div class="row lettreImg">
+    <head>
+        <title>Projet Final Prog1</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="style/style.css">
+    </head>
+    <body>
 
-</div>
+        <!-- formulaire entrer du mot -->
 
+        <div id="etape-1" class="w-100">
+            <div class="row w-100">
+                <div class="container offset-lg-2 col-lg-8 text-center mt-4">
+                    <h1>Créer votre mot ici</h1>
+                </div>
+                <div class="container col-lg-2 text-left mt-4 arrow-next1">
+                    <i class="fas fa-chevron-right fa-4x"></i>
+                </div>
+            </div>
+            <div class="container text-left mt-4">
+                <i class="fas fa-keyboard fa-2x"></i>
+            </div>
+            <div class="container text-center">
+                <form class="form1">
+                    <input class="form-control" type="text" placeholder="Entrez votre mot ici" id="motUsager">
+                    <button type="submit" class="btn btn-outline-dark mt-2 btn-step-1">Soumettre</button>
+                </form>
+            </div>
+        </div>
 
-<script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="bootstrap-4.4.1-dist/js/bootstrap.js"></script>
-<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Saira+Condensed&display=swap" rel="stylesheet">
-</body>
+        <!-- modal carousel de lettre -->
+
+        <div class="modal lettre-modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Sélectionnez votre photo</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+                            <div class="controls-top">
+                                <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+                                <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fas fa-chevron-right"></i></a>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active premier">
+                                </div>
+                                <div class="carousel-item deuxieme">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="etape-2" style="display: none;">
+            <div class="row w-100">
+                <div class="container  col-lg-2 text-right mt-4 arrow-back2">
+                    <i class="fas fa-chevron-left fa-4x"></i>
+                </div>
+                <div class="container col-lg-8 text-center mt-4">
+                    <h1>Changez vos lettres</h1>
+                </div>
+                <div class="container col-lg-2 text-left mt-4 arrow-next2">
+                    <i class="fas fa-chevron-right fa-4x"></i>
+                </div>
+            </div>
+            <div class="container text-left mt-4">
+                <i class="fas fa-font fa-2x"></i> Cliquez sur votre lettre pour la changer
+            </div>
+        </div>
+
+        <div id="etape-3" style="display: none;">
+            <div class="row w-100">
+                <div class="container col-lg-2 text-right mt-4 arrow-back3">
+                    <i class="fas fa-chevron-left fa-4x"></i>
+                </div>
+                <div class="container col-lg-6 text-center mt-4">
+                    <h1>Changez le fond</h1>
+                </div>
+                <div class="col-lg-2 text-left">
+                </div>
+            </div>
+            <div class="container text-left mt-4">
+                <i class="far fa-images fa-2x"></i> Choisissez la couleur de fond
+            </div>
+            <div id="couleur" class="container text-left mt-4">
+                <div class="color-box blue" id="bleu"></div>
+                <div class="color-box pink" id="rose"></div>
+                <div class="color-box red" id="rouge"></div>
+                <div class="color-box white" id="blanc"></div>
+                <div class="color-box black" id="noir"></div>
+                <div class="color-box grey" id="gris"></div>
+                <div class="color-box navy" id="bleuFonce"></div>
+            </div>
+        </div>
+
+        <div class="row w-100">
+            <div class="container col-lg-12 lettreImg text-center">
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
+        <script src="js/script.js"></script>
+        <script src="bootstrap-4.4.1-dist/js/bootstrap.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Saira+Condensed&display=swap" rel="stylesheet">
+    </body>
 </html>
