@@ -1,0 +1,16 @@
+.card-img-top {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.playButton {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
+
+.img-play {
+    width: 135px;
+    height: 99px;
+}
