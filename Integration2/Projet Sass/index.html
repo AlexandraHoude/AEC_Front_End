@@ -6,6 +6,8 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.css">
     <link rel="stylesheet" href="style/navigation.css">
+    <link rel="stylesheet" href="style/style.css">
+
 </head>
 
 <!-- Barre de navigation -->
@@ -21,20 +23,20 @@
                 <div class="offset-4 col-lg-8">
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav">
-                            <li class="nav-item active">
+                            <li class="nav-item active mr-4">
                                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item mr-4">
                                 <a class="nav-link" href="#">Features</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item mr-4">
                                 <a class="nav-link" href="#">Pricing</a>
                             </li>
-                            <li class="nav-item dropdown">
+                            <li class="nav-item dropdown mr-4">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Dropdown link
                                 </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <div class="dropdown-menu mr-4" aria-labelledby="navbarDropdownMenuLink">
                                     <a class="dropdown-item" href="#">Action</a>
                                     <a class="dropdown-item" href="#">Another action</a>
                                     <a class="dropdown-item" href="#">Something else here</a>
@@ -61,7 +63,106 @@
     </div>
 </header>
 <body>
-<div></div>
+    <div class="row button-deck-row">
+        <div class="offset-3 col-lg-8">
+            <button type="button" class="btn btn-light m-4 button-deck">All</button>
+            <button type="button" class="btn btn-light m-4 button-deck">Commercial</button>
+            <button type="button" class="btn btn-light m-4 button-deck">Design</button>
+            <button type="button" class="btn btn-light m-4 button-deck">Tech</button>
+            <button type="button" class="btn btn-light m-4 button-deck">People</button>
+            <button type="button" class="btn btn-light m-4 button-deck">Photography</button>
+            <button type="button" class="btn btn-light m-4 button-deck">Uncategorized</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="card-columns offset-2 col-lg-6 card-display">
+            <div class="card">
+                <img class="card-img-top" src="image/headquarter.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Headquarter</h5>
+                    <p class="card-text">Ut et lacus ex. Aliquam dignissim mauris sit amet purus convallis, vitae vehicula lectus tincidunt. Nulla placerat…</p>
+                </div>
+            </div>
+            <div class="card p-3">
+                <blockquote class="blockquote mb-0 card-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                    <footer class="blockquote-footer">
+                        <small class="text-muted">
+                            Someone famous in <cite title="Source Title">Source Title</cite>
+                        </small>
+                    </footer>
+                </blockquote>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="image/gopro.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card bg-primary text-white text-center p-3 card-color">
+                <blockquote class="blockquote mb-0">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+                    <footer class="blockquote-footer">
+                        <small>
+                            Someone famous in <cite title="Source Title">Source Title</cite>
+                        </small>
+                    </footer>
+                </blockquote>
+            </div>
+            <div class="card text-center">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img" src="image/fun.jpg" alt="Card image">
+            </div>
+            <div class="card p-3 text-right">
+                <blockquote class="blockquote mb-0">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                    <footer class="blockquote-footer">
+                        <small class="text-muted">
+                            Someone famous in <cite title="Source Title">Source Title</cite>
+                        </small>
+                    </footer>
+                </blockquote>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-2 news-feed">
+            <h3>Latest updates</h3>
+            <div class="news-box">
+                <img src="image/canon.jpg" alt="Canon" class="news-img mt-2">
+                <h6 class="ml-3">Technology news</h6>
+            </div>
+            <hr>
+            <div class="news-box">
+                <img src="image/style.jpg" alt="Style" class="news-img mt-2">
+                <h6 class="ml-3">Lifestyle</h6>
+            </div>
+            <hr>
+            <div class="news-box">
+                <img src="image/movie.jpg" alt="Movie" class="news-img mt-2">
+                <h6 class="ml-3">Photoshoot</h6>
+            </div>
+            <hr>
+            <img src="image/ad.png" alt="advertisement">
+            <form class="form-inline my-2 my-lg-0 search-bar">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-light my-2 my-sm-0 search-button" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
 </body>
 
 <!-- Footer -->

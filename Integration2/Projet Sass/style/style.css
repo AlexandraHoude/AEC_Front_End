@@ -1,0 +1,41 @@
+.button-deck {
+  border-radius: 30px !important;
+  border-color: lightgray;
+}
+
+.button-deck-row {
+  margin-top: 30px;
+}
+
+.card-display {
+  margin-top: 50px;
+}
+
+.card-color {
+  background-color: #565a5794 !important;
+}
+
+.news-feed {
+  margin-top: 50px;
+}
+
+.news-img {
+  width: 75px;
+  height: 75px;
+  border-radius: 35px;
+}
+
+.news-box {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar {
+  margin-top: 30px !important;
+}
+
+.search-button {
+  border-color: lightgray;
+}
+
+/*# sourceMappingURL=style.css.map */
