@@ -1,0 +1,100 @@
+import React from "react";
+import { Form, Button,Image,Container,Row,Col } from "react-bootstrap";
+import {toast} from "react-toastify"
+
+export class FormAjout extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {photo: "", setErrors : {}};
+
+        this.handleAdd = this.handleAdd.bind(this);
+        this.handlePhoto = this.handlePhoto.bind(this);
+        this.AjouterHero = this.AjouterHero.bind(this);
+    }
+
+    async AjouterHero(nom,photo,pouvoir1, pouvoir2) {
+        try{
+            const response = await fetch('https://crudcrud.com/api/5da054a8c5cf4211b57c0aa0a9460262/pokemons', {
+                method:'POST',
+                headers: {'Content-Type': 'application/json'  },
+                body:JSON.stringify({
+                    nom: nom,
+                    photo: photo,
+                    pouvoir: [
+                        {
+                            nom: pouvoir1
+                        },
+                        {
+                            nom: pouvoir2
+                        }
+                    ]
+                })
+            });
+            if(response.ok){
+                const jsonResponse = await response.json();
+                this.props.history.push("/");
+                toast.success("Ajout du Héro " + nom);
+
+                return jsonResponse;
+            }
+            throw new Error('Request failed!');
+        }
+        catch(error){
+            console.log(error);
+        }
+    }
+
+    handleAdd(event){
+        event.preventDefault();
+
+        const nom = document.getElementById('nomHero').value;
+        const photo = document.getElementById('photoHero').value;
+        const pouvoir1 = document.getElementById('pouvoir1').value;
+        const pouvoir2 = document.getElementById('pouvoir2').value;
+
+        this.AjouterHero(nom,photo,pouvoir1,pouvoir2);
+    }
+
+    handlePhoto(event){
+        const photos = document.getElementById('photoHero').value;
+        this.setState( {photo : photos});
+    }
+
+
+    render() {
+        console.log(this.props.history);
+        return (
+            <>
+                <Container>
+                    <Row>
+                        <Col>
+                            <Form>
+                                <Form.Group controlId="nomHero">
+                                    <Form.Label>Nom de votre Héro</Form.Label>
+                                    <Form.Control type="text" placeholder="Entrer le nom de votre Héro" />
+                                </Form.Group>
+                                <Form.Group controlId="photoHero">
+                                    <Form.Label>URL de votre photo de Héro</Form.Label>
+                                    <Form.Control type="text" placeholder="Entrer une URL valide" onBlur={this.handlePhoto}/>
+                                </Form.Group>
+                                {this.state.photo !== "" && <Image src={this.state.photo} rounded width="125"/>}
+                                <Form.Group controlId="pouvoir1">
+                                    <Form.Label>Nom de son premier pouvoir</Form.Label>
+                                    <Form.Control type="text" placeholder="Entrer le nom de son premier pouvoir" />
+                                </Form.Group>
+                                <Form.Group controlId="pouvoir2">
+                                    <Form.Label>Nom de son deuxième pouvoir</Form.Label>
+                                    <Form.Control type="text" placeholder="Entrer le nom de de son deuxième pouvoir" />
+                                </Form.Group>
+
+                                <Button variant="primary" type="submit" onClick={this.handleAdd}>
+                                    Enregistrer
+                                </Button>
+                            </Form>
+                        </Col>
+                    </Row>
+                </Container>
+            </>
+        );
+    }
+}

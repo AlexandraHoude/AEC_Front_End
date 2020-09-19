@@ -1,0 +1,18 @@
+@import "./variables"
+
+.navigationBar
+  background-color: $couleurNav
+  padding: .5rem
+
+.navbarBrand
+  font-size: 1.5rem !important
+  color: $couleurFontPrincipale !important
+
+@mixin navText
+  margin-left: 1.5rem
+
+.NavText
+  @include navText
+
+.navbarBrand img
+  filter: grayscale(0%) !important

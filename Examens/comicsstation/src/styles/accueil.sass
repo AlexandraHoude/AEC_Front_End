@@ -1,0 +1,25 @@
+.row
+  display: flex
+  flex-wrap: wrap
+  padding: 0 1rem
+
+.col
+  flex: 25%
+  max-width: 25%
+  padding: 0 1rem
+
+
+@mixin grille-images
+  margin-top: 8px
+  vertical-align: middle
+  width: 100%
+  filter: grayscale(90%)
+
+@mixin hover
+  &:hover
+    filter: grayscale(0%)
+
+img
+  @include grille-images
+  @include hover
+

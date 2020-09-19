@@ -1,0 +1,21 @@
+/* Couleurs de fond */
+/* Couleurs de polices */
+.navigationBar {
+  background-color: #303030;
+  padding: 0.5rem;
+}
+
+.navbarBrand {
+  font-size: 1.5rem !important;
+  color: #0282f9 !important;
+}
+
+.NavText {
+  margin-left: 1.5rem;
+}
+
+.navbarBrand img {
+  filter: grayscale(0%) !important;
+}
+
+/*# sourceMappingURL=navigationBar.css.map */
