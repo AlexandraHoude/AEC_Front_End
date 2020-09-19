@@ -1,6 +1,7 @@
 import React from "react";
 import { Form, Button,Image,Container,Row,Col } from "react-bootstrap";
 import {toast} from "react-toastify"
+import { API } from "../Constantes";
 
 export class FormAjout extends React.Component {
     constructor(props) {
@@ -14,7 +15,7 @@ export class FormAjout extends React.Component {
 
     async AjouterHero(nom,photo,pouvoir1, pouvoir2) {
         try{
-            const response = await fetch('https://crudcrud.com/api/5da054a8c5cf4211b57c0aa0a9460262/pokemons', {
+            const response = await fetch(API, {
                 method:'POST',
                 headers: {'Content-Type': 'application/json'  },
                 body:JSON.stringify({
