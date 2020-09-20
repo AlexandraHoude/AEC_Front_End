@@ -1,4 +1,6 @@
 @import "./variables"
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap')
+
 
 .navigationBar
   background-color: $couleurNav
@@ -9,10 +11,13 @@
   color: $couleurFontPrincipale !important
 
 @mixin navText
-  margin-left: 1.5rem
+  margin-left: 4.5rem
+  font-family: 'Press Start 2P', cursive
 
 .NavText
   @include navText
 
 .navbarBrand img
   filter: grayscale(0%) !important
+
+

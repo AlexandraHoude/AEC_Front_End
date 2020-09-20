@@ -115,7 +115,7 @@ function FormModifierHero(props){
                                 <Form.Control type="text" placeholder="Entrer le nom de de son deuxième pouvoir" defaultValue={donneesRecues.pouvoir[1].nom}/>
                             </Form.Group>
 
-                            <Button variant="primary" type="submit" onClick={handleEdit}>
+                            <Button variant="danger" type="submit" onClick={handleEdit}>
                                 Enregistrer
                             </Button>
                         </Form>

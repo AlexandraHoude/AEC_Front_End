@@ -19,7 +19,7 @@ export class Navigation extends React.Component {
         return (
             <>
                 <Navbar className="navigationBar">
-                    <Navbar.Brand href="/" className={"navbarBrand"}><img alt="Logo" src={Logo} style={{width: 100, height: 50}}/></Navbar.Brand>
+                    <Navbar.Brand href="/" className={"navbarBrand"}><img alt="Logo" src={Logo} style={{width: 120, height: 50}}/></Navbar.Brand>
                     <Nav>
                         <NavLink exact to="/" style={style} activeStyle={activeStyle} className="NavText"> Accueil </NavLink>
                         <NavLink to="/CreerHero" style={style} activeStyle={activeStyle} className="NavText"> Créer votre héro </NavLink>

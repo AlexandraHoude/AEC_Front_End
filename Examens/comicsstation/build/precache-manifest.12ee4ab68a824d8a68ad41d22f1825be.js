@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "55cfd8124c163c80a5d447d900b545e8",
+    "revision": "3bb4fc413de6604b121d63c0bfeae97d",
     "url": "./index.html"
   },
   {
-    "revision": "2264ad05da747fb7a2f9",
+    "revision": "408e80964e72efb45c7b",
     "url": "./static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "2d274d2a9623bdb7cb5c",
-    "url": "./static/css/main.7202cd64.chunk.css"
+    "revision": "4eb4e6a5aae49d41c587",
+    "url": "./static/css/main.ff0b40cb.chunk.css"
   },
   {
-    "revision": "2264ad05da747fb7a2f9",
-    "url": "./static/js/2.f8493e22.chunk.js"
+    "revision": "408e80964e72efb45c7b",
+    "url": "./static/js/2.05e17ad9.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "./static/js/2.f8493e22.chunk.js.LICENSE.txt"
+    "url": "./static/js/2.05e17ad9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2d274d2a9623bdb7cb5c",
-    "url": "./static/js/main.dc7efc30.chunk.js"
+    "revision": "4eb4e6a5aae49d41c587",
+    "url": "./static/js/main.02bc9d54.chunk.js"
   },
   {
     "revision": "521fe258087753b08490",
@@ -98,6 +98,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a8bc282e76397aaad5215b54dfad58de",
     "url": "./static/media/WonderWoman.a8bc282e.jpg"
+  },
+  {
+    "revision": "8da091d152d76b29c10d64da44532ec0",
+    "url": "./static/media/banner.8da091d1.jpg"
   },
   {
     "revision": "21364db32da80ddf924f445cfcb473fc",

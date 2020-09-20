@@ -2,6 +2,7 @@ import React from "react";
 import { Form, Button,Image,Container,Row,Col } from "react-bootstrap";
 import {toast} from "react-toastify"
 import { API } from "../Constantes";
+import {Banner} from "./banniereImage";
 
 export class FormAjout extends React.Component {
     constructor(props) {
@@ -66,6 +67,7 @@ export class FormAjout extends React.Component {
         console.log(this.props.history);
         return (
             <>
+                <Banner />
                 <Container>
                     <Row>
                         <Col>
@@ -88,7 +90,7 @@ export class FormAjout extends React.Component {
                                     <Form.Control type="text" placeholder="Entrer le nom de de son deuxième pouvoir" />
                                 </Form.Group>
 
-                                <Button variant="primary" type="submit" onClick={this.handleAdd}>
+                                <Button variant="danger" type="submit" onClick={this.handleAdd}>
                                     Enregistrer
                                 </Button>
                             </Form>

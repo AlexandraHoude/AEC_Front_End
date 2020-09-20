@@ -1,20 +1,21 @@
 import React, { useState, useEffect } from "react";
 import {API} from "../Constantes";
 import { Hero } from "./FicheHero";
+import { Container, Row} from "react-bootstrap";
 
-function ListeFicheHero() {
-    const [donneesRecues, setDonneesRecues] = useState([]);
+export class ListeFicheHero extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {donneesRecues: []};
 
-    //Ajout de la gestion des erreurs
-    useEffect(() => {
-        getHero();
-    }, [donneesRecues.join(",")]); //Si on enlève le second paramètre, on obtient une boucle infinie.
+    }
 
-    async function getHero() {
+
+    async componentDidMount(){
         try {
             const response = await fetch(API);
             const reponseDeApi = await response.json();
-            setDonneesRecues(reponseDeApi);
+            this.setState({donneesRecues:reponseDeApi});
             if (!response.ok) {
                 throw Error(response.statusText);
             }
@@ -23,14 +24,21 @@ function ListeFicheHero() {
         }
     }
 
-    return (
-        <div>
-            <h1>Vos Héros</h1>
-            {donneesRecues.map((key, i) => (
-                <Hero nom={key.nom} id={key._id} key={key.nom + key._id} urlPhoto={key.photo}></Hero>
-            ))}
-        </div>
-    );
+
+    render()
+    {
+
+        return (
+
+            <Container>
+                <Row>
+                    {this.state.donneesRecues.map((key, i) => (
+                        <Hero nom={key.nom} id={key._id} key={key.nom + key._id} urlPhoto={key.photo}></Hero>
+                    ))}
+                </Row>
+            </Container>
+        );
+    }
 }
 
 export default ListeFicheHero;

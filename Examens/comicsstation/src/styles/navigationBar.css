@@ -1,5 +1,6 @@
 /* Couleurs de fond */
 /* Couleurs de polices */
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 .navigationBar {
   background-color: #303030;
   padding: 0.5rem;
@@ -11,7 +12,8 @@
 }
 
 .NavText {
-  margin-left: 1.5rem;
+  margin-left: 4.5rem;
+  font-family: "Press Start 2P", cursive;
 }
 
 .navbarBrand img {

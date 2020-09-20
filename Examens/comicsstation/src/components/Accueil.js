@@ -20,13 +20,11 @@ import Wolverine from '../img/Wolverine.jpg';
 import WonderWoman from '../img/WonderWoman.jpg';
 import Punisher from '../img/Punisher.jpg';
 
-
-
-
 export function Accueil() {
 
     return(
         <Container>
+            <br/>
             <Row>
                 <Col>
                     <img alt="Batman" src={Batman} width={300} />
@@ -53,6 +51,8 @@ export function Accueil() {
                     <img alt="Punisher" src={Punisher} width={300}/>
                 </Col>
             </Row>
+            <br/>
+            <br/>
         </Container>
 
     );

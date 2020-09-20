@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "./static/css/main.7202cd64.chunk.css",
-    "main.js": "./static/js/main.dc7efc30.chunk.js",
-    "main.js.map": "./static/js/main.dc7efc30.chunk.js.map",
+    "main.css": "./static/css/main.ff0b40cb.chunk.css",
+    "main.js": "./static/js/main.02bc9d54.chunk.js",
+    "main.js.map": "./static/js/main.02bc9d54.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.65a5a3b5.js",
     "runtime-main.js.map": "./static/js/runtime-main.65a5a3b5.js.map",
     "static/css/2.11829350.chunk.css": "./static/css/2.11829350.chunk.css",
-    "static/js/2.f8493e22.chunk.js": "./static/js/2.f8493e22.chunk.js",
-    "static/js/2.f8493e22.chunk.js.map": "./static/js/2.f8493e22.chunk.js.map",
+    "static/js/2.05e17ad9.chunk.js": "./static/js/2.05e17ad9.chunk.js",
+    "static/js/2.05e17ad9.chunk.js.map": "./static/js/2.05e17ad9.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.ded9d1b2c04b4f53dba378efed617afa.js": "./precache-manifest.ded9d1b2c04b4f53dba378efed617afa.js",
+    "precache-manifest.12ee4ab68a824d8a68ad41d22f1825be.js": "./precache-manifest.12ee4ab68a824d8a68ad41d22f1825be.js",
     "service-worker.js": "./service-worker.js",
     "static/css/2.11829350.chunk.css.map": "./static/css/2.11829350.chunk.css.map",
-    "static/css/main.7202cd64.chunk.css.map": "./static/css/main.7202cd64.chunk.css.map",
-    "static/js/2.f8493e22.chunk.js.LICENSE.txt": "./static/js/2.f8493e22.chunk.js.LICENSE.txt",
+    "static/css/main.ff0b40cb.chunk.css.map": "./static/css/main.ff0b40cb.chunk.css.map",
+    "static/js/2.05e17ad9.chunk.js.LICENSE.txt": "./static/js/2.05e17ad9.chunk.js.LICENSE.txt",
     "static/media/Aquaman.jpg": "./static/media/Aquaman.41e2c938.jpg",
     "static/media/Batman.jpg": "./static/media/Batman.3e83a4be.jpg",
     "static/media/Batwoman.jpg": "./static/media/Batwoman.657f19fb.jpg",
@@ -32,13 +32,14 @@
     "static/media/Superman.jpg": "./static/media/Superman.bfdd9bc5.jpg",
     "static/media/Wolverine.jpg": "./static/media/Wolverine.2ddc66c7.jpg",
     "static/media/WonderWoman.jpg": "./static/media/WonderWoman.a8bc282e.jpg",
+    "static/media/banner.jpg": "./static/media/banner.8da091d1.jpg",
     "static/media/comic.png": "./static/media/comic.21364db3.png"
   },
   "entrypoints": [
     "static/js/runtime-main.65a5a3b5.js",
     "static/css/2.11829350.chunk.css",
-    "static/js/2.f8493e22.chunk.js",
-    "static/css/main.7202cd64.chunk.css",
-    "static/js/main.dc7efc30.chunk.js"
+    "static/js/2.05e17ad9.chunk.js",
+    "static/css/main.ff0b40cb.chunk.css",
+    "static/js/main.02bc9d54.chunk.js"
   ]
 }
