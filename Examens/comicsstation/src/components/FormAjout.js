@@ -15,7 +15,7 @@ export class FormAjout extends React.Component {
     }
 
     async AjouterHero(nom,photo,pouvoir1, pouvoir2) {
-        try{
+        try {
             const response = await fetch(API, {
                 method:'POST',
                 headers: {'Content-Type': 'application/json'  },
@@ -23,6 +23,7 @@ export class FormAjout extends React.Component {
                     nom: nom,
                     photo: photo,
                     pouvoir: [
+
                         {
                             nom: pouvoir1
                         },
@@ -89,10 +90,7 @@ export class FormAjout extends React.Component {
                                     <Form.Label>Nom de son deuxième pouvoir</Form.Label>
                                     <Form.Control type="text" placeholder="Entrer le nom de de son deuxième pouvoir" />
                                 </Form.Group>
-
-                                <Button variant="danger" type="submit" onClick={this.handleAdd}>
-                                    Enregistrer
-                                </Button>
+                                <Button variant="danger" type="submit" onClick={this.handleAdd}> Enregistrer </Button>
                             </Form>
                         </Col>
                     </Row>

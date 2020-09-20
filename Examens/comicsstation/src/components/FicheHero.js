@@ -19,7 +19,7 @@ export class Hero extends React.Component {
                                 {this.props.donneesRecues.pouvoir}
                             </div>
                         </Card.Body>
-                        <Link className='border border' to={"Hero/"+ this.props.donneesRecues.nom +"?id=" + this.props.id}>
+                        <Link className='border border' to={"hero/"+ this.props.donneesRecues.nom +"?id=" + this.props.id}>
                             <div className='text-center'>
                                 <img src={this.props.donneesRecues.photo} alt='photoHero' className='img-fluid img-card' />
                             </div>
