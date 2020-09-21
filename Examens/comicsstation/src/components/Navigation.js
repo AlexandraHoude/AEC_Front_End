@@ -3,6 +3,7 @@ import { Nav, Navbar} from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import '../styles/navigationBar.sass';
 import Logo from "../img/comic.png";
+import anime from "animejs";
 
 export class Navigation extends React.Component {
     constructor(props) {
@@ -10,8 +11,9 @@ export class Navigation extends React.Component {
         this.state = {  }
     }
 
+
+
     render() {
-        console.log(Logo);
         const style = {
             color: "White"
         };
@@ -19,7 +21,7 @@ export class Navigation extends React.Component {
         return (
             <>
                 <Navbar className="navigationBar">
-                    <Navbar.Brand href="/" className={"navbarBrand"}><img alt="Logo" src={Logo} style={{width: 120, height: 50}}/></Navbar.Brand>
+                     <Navbar.Brand href="/" className={"navbarBrand"}><img alt="Logo" src={Logo} style={{width: 120, height: 50}}/></Navbar.Brand>
                     <Nav>
                         <NavLink exact to="/" style={style} activeStyle={activeStyle} className="NavText"> Accueil </NavLink>
                         <NavLink to="/CreerHero" style={style} activeStyle={activeStyle} className="NavText"> Créer votre héro </NavLink>

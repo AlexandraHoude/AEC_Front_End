@@ -7,28 +7,28 @@ import {Banner} from "./banniereImage";
 export class FormAjout extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {photo: "", setErrors : {}};
+        this.state = {urlPhoto: "", setErrors : {}};
 
         this.handleAdd = this.handleAdd.bind(this);
         this.handlePhoto = this.handlePhoto.bind(this);
         this.AjouterHero = this.AjouterHero.bind(this);
     }
 
-    async AjouterHero(nom,photo,pouvoir1, pouvoir2) {
+    async AjouterHero(nom,urlPhoto,pouvoir1, pouvoir2) {
         try {
             const response = await fetch(API, {
                 method:'POST',
                 headers: {'Content-Type': 'application/json'  },
                 body:JSON.stringify({
                     nom: nom,
-                    photo: photo,
+                    urlPhoto: urlPhoto,
                     pouvoir: [
 
                         {
-                            nom: pouvoir1
+                            pouvoir1: pouvoir1
                         },
                         {
-                            nom: pouvoir2
+                            pouvoir2: pouvoir2
                         }
                     ]
                 })
@@ -51,16 +51,16 @@ export class FormAjout extends React.Component {
         event.preventDefault();
 
         const nom = document.getElementById('nomHero').value;
-        const photo = document.getElementById('photoHero').value;
+        const urlPhoto = document.getElementById('photoHero').value;
         const pouvoir1 = document.getElementById('pouvoir1').value;
         const pouvoir2 = document.getElementById('pouvoir2').value;
 
-        this.AjouterHero(nom,photo,pouvoir1,pouvoir2);
+        this.AjouterHero(nom,urlPhoto,pouvoir1,pouvoir2);
     }
 
     handlePhoto(event){
         const photos = document.getElementById('photoHero').value;
-        this.setState( {photo : photos});
+        this.setState( {urlPhoto : photos});
     }
 
 
@@ -81,7 +81,7 @@ export class FormAjout extends React.Component {
                                     <Form.Label>URL de votre photo de Héro</Form.Label>
                                     <Form.Control type="text" placeholder="Entrer une URL valide" onBlur={this.handlePhoto}/>
                                 </Form.Group>
-                                {this.state.photo !== "" && <Image src={this.state.photo} rounded width="125"/>}
+                                {this.state.urlPhoto !== "" && <Image src={this.state.urlPhoto} rounded width="125"/>}
                                 <Form.Group controlId="pouvoir1">
                                     <Form.Label>Nom de son premier pouvoir</Form.Label>
                                     <Form.Control type="text" placeholder="Entrer le nom de son premier pouvoir" />

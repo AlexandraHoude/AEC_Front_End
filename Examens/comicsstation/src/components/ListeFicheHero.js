@@ -10,8 +10,7 @@ export class ListeFicheHero extends React.Component {
 
     }
 
-
-    async componentDidMount(){
+    async componentDidMount() {
         try {
             const response = await fetch(API);
             const reponseDeApi = await response.json();
@@ -24,16 +23,18 @@ export class ListeFicheHero extends React.Component {
         }
     }
 
-
-    render()
-    {
-
+    render() {
         return (
-
             <Container>
                 <Row>
                     {this.state.donneesRecues.map((key, i) => (
-                        <Hero nom={key.nom} id={key._id} key={key.nom + key._id} urlPhoto={key.photo}></Hero>
+                        <Hero
+                            nom={key.nom}
+                            id={key._id}
+                            key={key.nom + key._id}
+                            pouvoir={key.pouvoir}
+                            urlPhoto={key.urlPhoto}>
+                        </Hero>
                     ))}
                 </Row>
             </Container>

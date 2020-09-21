@@ -1,23 +1,29 @@
-import React , {useState , useEffect} from "react";
+import React from "react";
 import { Form, Button,Image,Container,Row,Col } from "react-bootstrap";
-import {API} from "../constantes";
 import {toast} from "react-toastify"
+import {API} from "../Constantes";
 
-function FormModifierHero(props){
-    const [donneesRecues , setDonneesRecues] = useState({nom: '', photo:"", pouvoir : ["",""] });
-    const [heroID , setHeroID] = useState(props.location.search.substring(4,props.location.search.length));
-    const [photos , setPhotos] = useState("");
+export class FormModif extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            donneesRecues: {id: 0, nom: '', urlPhoto: "", pouvoir : ["",""] },
+            setErrors : {}};
 
-    useEffect(() => {
-        getHeroInfos();
-    },[]);
+        this.handleEdit = this.handleEdit.bind(this);
+        this.handlePhoto = this.handlePhoto.bind(this);
+        this.editHero = this.editHero.bind(this);
+        this.removeHero = this.removeHero.bind(this);
+    }
 
-    async function getHeroInfos() {
+    async componentDidMount() {
         try {
-
-            const response = await fetch(API + heroID);
+            await this.setState({id : this.props.location.search.substring(4, this.props.location.search.length)});
+            await console.log(this.state.id);
+            const response = await fetch(API + this.state.id);
             const reponseDeApi = await response.json();
-            setDonneesRecues(reponseDeApi);
+            this.setState({ donneesRecues: reponseDeApi });
+
             if (!response.ok) {
                 throw Error(response.statusText);
             }
@@ -26,29 +32,30 @@ function FormModifierHero(props){
         }
     }
 
-    async function modifierHero(nom,photo,pouvoir1, pouvoir2) {
+    async editHero(nom, urlPhoto, pouvoir1, pouvoir2) {
         try{
-            const response = await fetch(API + heroID, {
+            const response = await fetch(API + this.state.id, {
                 method:'PUT',
                 headers: {'Content-Type': 'application/json'  },
-                body:JSON.stringify({
+                body:JSON.stringify({_id : this.state.id,
                     nom: nom,
-                    photo: photo,
+                    urlPhoto: urlPhoto,
                     pouvoir: [
                         {
-                            nom: pouvoir1
+                            pouvoir1: pouvoir1
                         },
                         {
-                            nom: pouvoir2
+                            pouvoir2: pouvoir2
                         }
                     ]
                 })
             });
             if(response.ok){
-                props.history.push("/");
-                toast.success("Modification du Héro" + nom);
+                const jsonResponse = await response.json();
+                this.props.history.push("/");
+                toast.success("Modification du hero " + nom);
 
-                return response;
+                return jsonResponse;
             }
             throw new Error('Request failed!');
         }
@@ -57,15 +64,16 @@ function FormModifierHero(props){
         }
     }
 
-    async function supprimerHero() {
+    async removeHero() {
         try{
-            const response = await fetch(API + heroID, {
-                method:'delete',
+            const response = await fetch(API + this.state.id, {
+                method:'DELETE',
             });
             if(response.ok){
-                //const jsonResponse = await response.json();
-                props.history.push("/");
-                toast.error("Supression du Héro ");
+                console.log(response);
+                console.log("SUPPRESSION!");
+                this.props.history.push("/");
+                toast.error("Supression du hero ");
 
                 return response;
             }
@@ -76,55 +84,58 @@ function FormModifierHero(props){
         }
     }
 
-    function handleEdit(event){
+    handleEdit(event){
         event.preventDefault();
 
         const nom = document.getElementById('nomHero').value;
-        const photo = document.getElementById('photoHero').value;
+        const urlPhoto = document.getElementById('photoHero').value;
         const pouvoir1 = document.getElementById('pouvoir1').value;
         const pouvoir2 = document.getElementById('pouvoir2').value;
 
-        modifierHero(nom,photo,pouvoir1,pouvoir2);
+        this.editHero(nom, urlPhoto, pouvoir1, pouvoir2);
     }
 
-    function handlePhoto(event){
-        const photos = document.getElementById('photoHero').value;
-        setPhotos(photos);
+    handlePhoto(event){
+        const photos = document.getElementById('urlPhoto').value;
+        this.setState( {urlPhoto : photos});
     }
-    return (
-        <>
-            <Container>
-                <Row>
-                    <Col>
-                        <Form>
-                            <Form.Group controlId="nomHero">
-                                <Form.Label>Nom de votre Héro</Form.Label>
-                                <Form.Control type="text" defaultValue={donneesRecues.nom}/> {/*/ Faire le test avec value*/}
-                            </Form.Group>
-                            <Form.Group controlId="photoHero">
-                                <Form.Label>URL de votre photo de Héro</Form.Label>
-                                <Form.Control type="text" placeholder="Entrer une URL valide" onBlur={handlePhoto} defaultValue={donneesRecues.photo}/>
-                            </Form.Group>
-                            {donneesRecues.photo !== "" && <Image src={donneesRecues.photo} rounded width="125"/>}
-                            <Form.Group controlId="pouvoir1">
-                                <Form.Label>Nom de l'attaque 1</Form.Label>
-                                <Form.Control type="text" placeholder="Entrer le nom de son premier pouvoir" defaultValue={donneesRecues.pouvoir[0].nom}/>
-                            </Form.Group>
-                            <Form.Group controlId="pouvoir2">
-                                <Form.Label>Nom de son deuxième pouvoir</Form.Label>
-                                <Form.Control type="text" placeholder="Entrer le nom de de son deuxième pouvoir" defaultValue={donneesRecues.pouvoir[1].nom}/>
-                            </Form.Group>
 
-                            <Button variant="danger" type="submit" onClick={handleEdit}>
-                                Enregistrer
-                            </Button>
-                        </Form>
-                    </Col>
-                </Row>
-                <p className="btn btn-danger mt-5" onClick={supprimerHero}>Supprimer le Héro</p>
-            </Container>
-        </>
-    );
+    render() {
+        return (
+            <>
+                <Container>
+                    <Row>
+                        <Col>
+                            <Form>
+                                <Form.Group controlId="nomHero">
+                                    <Form.Label>Nom du hero</Form.Label>
+                                    <Form.Control type="text" defaultValue={this.state.donneesRecues.nom}/> {}
+                                </Form.Group>
+                                <Form.Group controlId="photoHero">
+                                    <Form.Label>URL d'une photo du Hero</Form.Label>
+                                    <Form.Control type="text" placeholder="Entrer une URL valide" onBlur={this.handlePhoto} defaultValue={this.state.donneesRecues.urlPhoto}/>
+                                </Form.Group>
+                                {this.state.donneesRecues.urlPhoto !== "" && <Image src={this.state.donneesRecues.urlPhoto} rounded width="125"/>}
+                                <Form.Group controlId="pouvoir1">
+                                    <Form.Label>Nom de l'attaque 1</Form.Label>
+                                    <Form.Control type="text" placeholder="Entrer le nom du pouvoir 1" defaultValue={this.state.donneesRecues.pouvoir[0].pouvoir1}/>
+                                </Form.Group>
+                                <Form.Group controlId="pouvoir2">
+                                    <Form.Label>Nom de l'attaque 2</Form.Label>
+                                    <Form.Control type="text" placeholder="Entrer le nom du pouvoir 2" defaultValue={this.state.donneesRecues.pouvoir[1].pouvoir2 }/>
+                                </Form.Group>
+
+                                <Button variant="primary" type="submit" onClick={this.handleEdit}>
+                                    Enregistrer
+                                </Button>
+                            </Form>
+                        </Col>
+                    </Row>
+                    <p className="btn btn-danger mt-5" onClick={this.removeHero}>Supprimer le Hero</p>
+                </Container>
+            </>
+        );
+    }
 }
 
-export default FormModifierHero;
+export default FormModif;
