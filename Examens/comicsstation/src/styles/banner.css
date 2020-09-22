@@ -1,5 +1,10 @@
 /* Couleurs de fond */
 /* Couleurs de polices */
+/* Style de police */
+@font-face {
+  font-family: "Turret Road", cursive;
+  src: url("https://fonts.googleapis.com/css2?family=Turret+Road:wght@800&display=swap");
+}
 .Banner {
   filter: grayscale(0%) !important;
 }

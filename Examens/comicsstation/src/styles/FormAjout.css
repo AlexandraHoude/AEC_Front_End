@@ -5,9 +5,9 @@
   font-family: "Turret Road", cursive;
   src: url("https://fonts.googleapis.com/css2?family=Turret+Road:wght@800&display=swap");
 }
-.PiedPage {
-  background-color: #303030;
-  padding: 4rem;
+label {
+  font-family: "Turret Road", cursive;
+  text-align: center;
 }
 
-/*# sourceMappingURL=PiedPage.css.map */
+/*# sourceMappingURL=FormAjout.css.map */

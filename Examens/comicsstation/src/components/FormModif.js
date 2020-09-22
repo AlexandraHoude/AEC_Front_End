@@ -13,7 +13,6 @@ export class FormModif extends React.Component {
         this.handleEdit = this.handleEdit.bind(this);
         this.handlePhoto = this.handlePhoto.bind(this);
         this.editHero = this.editHero.bind(this);
-        this.removeHero = this.removeHero.bind(this);
     }
 
     async componentDidMount() {
@@ -37,7 +36,7 @@ export class FormModif extends React.Component {
             const response = await fetch(API + this.state.id, {
                 method:'PUT',
                 headers: {'Content-Type': 'application/json'  },
-                body:JSON.stringify({_id : this.state.id,
+                body:JSON.stringify({id : this.state.id,
                     nom: nom,
                     urlPhoto: urlPhoto,
                     pouvoir: [
@@ -64,26 +63,6 @@ export class FormModif extends React.Component {
         }
     }
 
-    async removeHero() {
-        try{
-            const response = await fetch(API + this.state.id, {
-                method:'DELETE',
-            });
-            if(response.ok){
-                console.log(response);
-                console.log("SUPPRESSION!");
-                this.props.history.push("/");
-                toast.error("Supression du hero ");
-
-                return response;
-            }
-            throw new Error('Request failed!');
-        }
-        catch(error){
-            console.log(error);
-        }
-    }
-
     handleEdit(event){
         event.preventDefault();
 
@@ -95,7 +74,7 @@ export class FormModif extends React.Component {
         this.editHero(nom, urlPhoto, pouvoir1, pouvoir2);
     }
 
-    handlePhoto(event){
+    handlePhoto(){
         const photos = document.getElementById('urlPhoto').value;
         this.setState( {urlPhoto : photos});
     }
@@ -131,7 +110,6 @@ export class FormModif extends React.Component {
                             </Form>
                         </Col>
                     </Row>
-                    <p className="btn btn-danger mt-5" onClick={this.removeHero}>Supprimer le Hero</p>
                 </Container>
             </>
         );

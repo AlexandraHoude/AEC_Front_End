@@ -1,6 +1,11 @@
 /* Couleurs de fond */
 /* Couleurs de polices */
+/* Style de police */
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@font-face {
+  font-family: "Turret Road", cursive;
+  src: url("https://fonts.googleapis.com/css2?family=Turret+Road:wght@800&display=swap");
+}
 .navigationBar {
   background-color: #303030;
   padding: 0.5rem;

@@ -3,6 +3,7 @@ import { Form, Button,Image,Container,Row,Col } from "react-bootstrap";
 import {toast} from "react-toastify"
 import { API } from "../Constantes";
 import {Banner} from "./banniereImage";
+import "../styles/FormAjout.sass";
 
 export class FormAjout extends React.Component {
     constructor(props) {

@@ -1,0 +1,22 @@
+/* Couleurs de fond */
+/* Couleurs de polices */
+/* Style de police */
+@font-face {
+  font-family: "Turret Road", cursive;
+  src: url("https://fonts.googleapis.com/css2?family=Turret+Road:wght@800&display=swap");
+}
+h2, p {
+  font-family: "Turret Road", cursive;
+  text-align: center;
+}
+
+.Carte {
+  background-color: #a0999966 !important;
+}
+
+.btn {
+  font-family: "Turret Road", cursive;
+  text-align: center;
+}
+
+/*# sourceMappingURL=FicheHero.css.map */
