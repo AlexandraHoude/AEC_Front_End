@@ -50,11 +50,11 @@ export class FormModif extends React.Component {
                 })
             });
             if(response.ok){
-                const jsonResponse = await response.json();
+                const result = await response;
                 this.props.history.push("/");
                 toast.success("Modification du hero " + nom);
 
-                return jsonResponse;
+                return result;
             }
             throw new Error('Request failed!');
         }
@@ -115,5 +115,3 @@ export class FormModif extends React.Component {
         );
     }
 }
-
-export default FormModif;

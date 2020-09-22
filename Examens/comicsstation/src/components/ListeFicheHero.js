@@ -33,7 +33,8 @@ export class ListeFicheHero extends React.Component {
                             id={key._id}
                             key={key.nom + key._id}
                             pouvoir={key.pouvoir}
-                            urlPhoto={key.urlPhoto}>
+                            urlPhoto={key.urlPhoto}
+                            history={this.props.history}>
                         </Hero>
                     ))}
                 </Row>

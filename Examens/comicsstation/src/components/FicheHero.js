@@ -18,12 +18,11 @@ export class Hero extends React.Component {
                 method:'DELETE',
             });
             if(response.ok){
-                console.log(response);
-                console.log("SUPPRESSION!");
+                const result = await response;
                 this.props.history.push("/");
-                toast.error("Supression du hero ");
+                toast.success("Supression du hero ");
 
-                return response;
+                return result;
             }
             throw new Error('Request failed!');
         }
