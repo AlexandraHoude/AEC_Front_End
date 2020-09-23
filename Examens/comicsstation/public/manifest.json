@@ -3,15 +3,9 @@
   "name": "ComicsStation App",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "maskable_icon.ico",
       "sizes": "64x64",
       "type": "image/x-icon",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "maskable_icon.png",
-      "sizes": "64x64",
-      "type": "image/png",
       "purpose": "any maskable"
     },
     {
