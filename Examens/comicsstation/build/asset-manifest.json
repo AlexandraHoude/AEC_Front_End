@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.f9e67af2.chunk.css",
+    "main.css": "./static/css/main.4fd1d50d.chunk.css",
     "main.js": "./static/js/main.7c34f83c.chunk.js",
     "main.js.map": "./static/js/main.7c34f83c.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.65a5a3b5.js",
@@ -9,10 +9,10 @@
     "static/js/2.5fe62c70.chunk.js": "./static/js/2.5fe62c70.chunk.js",
     "static/js/2.5fe62c70.chunk.js.map": "./static/js/2.5fe62c70.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.9372730ab4b9b039c64c218de0c8e9ca.js": "./precache-manifest.9372730ab4b9b039c64c218de0c8e9ca.js",
+    "precache-manifest.4dba8d26ffa1b3bb572d4328727c4fa4.js": "./precache-manifest.4dba8d26ffa1b3bb572d4328727c4fa4.js",
     "service-worker.js": "./service-worker.js",
     "static/css/2.41fc952c.chunk.css.map": "./static/css/2.41fc952c.chunk.css.map",
-    "static/css/main.f9e67af2.chunk.css.map": "./static/css/main.f9e67af2.chunk.css.map",
+    "static/css/main.4fd1d50d.chunk.css.map": "./static/css/main.4fd1d50d.chunk.css.map",
     "static/js/2.5fe62c70.chunk.js.LICENSE.txt": "./static/js/2.5fe62c70.chunk.js.LICENSE.txt",
     "static/media/Aquaman.jpg": "./static/media/Aquaman.41e2c938.jpg",
     "static/media/Batman.jpg": "./static/media/Batman.3e83a4be.jpg",
@@ -39,7 +39,7 @@
     "static/js/runtime-main.65a5a3b5.js",
     "static/css/2.41fc952c.chunk.css",
     "static/js/2.5fe62c70.chunk.js",
-    "static/css/main.f9e67af2.chunk.css",
+    "static/css/main.4fd1d50d.chunk.css",
     "static/js/main.7c34f83c.chunk.js"
   ]
 }
