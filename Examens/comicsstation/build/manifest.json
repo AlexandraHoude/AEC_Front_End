@@ -3,7 +3,7 @@
   "name": "ComicsStation App",
   "icons": [
     {
-      "src": "maskable_icon.ico",
+      "src": "batman_icon.ico",
       "sizes": "64x64",
       "type": "image/x-icon",
       "purpose": "any maskable"
