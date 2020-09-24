@@ -4,9 +4,9 @@ import { PiedPage } from "./PiedPage";
 import { Accueil } from "./Accueil";
 import { CreerHero } from "./CreerHero";
 import { FormModif } from "./FormModif";
-import ListeFicheHero from "./ListeFicheHero";
-import { Route, Switch} from "react-router-dom";
-import { ToastContainer} from "react-toastify";
+import { ListeFicheHero } from "./ListeFicheHero";
+import { Route, Switch } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css'
 
 function App() {

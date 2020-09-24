@@ -1,46 +1,41 @@
-import React from "react";
-import {API} from "../Constantes";
+import React, { useState, useEffect } from "react";
+import { API } from "../Constantes";
 import { Hero } from "./FicheHero";
-import { Container, Row} from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 
-export class ListeFicheHero extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {donneesRecues: []};
+export function ListeFicheHero (props) {
+    const [donneesRecues,setdonneesRecues] = useState([]);
 
-    }
-
-    async componentDidMount() {
-        try {
-            const response = await fetch(API);
-            const reponseDeApi = await response.json();
-            this.setState({donneesRecues:reponseDeApi});
-            if (!response.ok) {
-                throw Error(response.statusText);
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const response = await fetch(API);
+                const reponseDeApi = await response.json();
+                setdonneesRecues(reponseDeApi);
+                if (!response.ok) {
+                    throw Error(response.statusText);
+                }
+            } catch (error) {
+                console.log(error);
             }
-        } catch (error) {
-            console.log(error);
         }
-    }
+        fetchData();
+    },[])
 
-    render() {
-        return (
-            <Container>
-                <Row>
-                    {this.state.donneesRecues.map((key, i) => (
-                        <Hero
-                            nom={key.nom}
-                            id={key._id}
-                            key={key.nom + key._id}
-                            pouvoir={key.pouvoir}
-                            urlPhoto={key.urlPhoto}
-                            history={this.props.history}>
-                        </Hero>
-                    ))}
-                </Row>
-            </Container>
-        );
-    }
+    return (
+        <Container>
+            <Row>
+                {donneesRecues.map((key, i) => (
+                    <Hero
+                        nom={key.nom}
+                        id={key._id}
+                        key={key.nom + key._id}
+                        pouvoir={key.pouvoir}
+                        urlPhoto={key.urlPhoto}
+                        history={props.history}>
+                    </Hero>
+                ))}
+            </Row>
+        </Container>
+    );
 }
-
-export default ListeFicheHero;

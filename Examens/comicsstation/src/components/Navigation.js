@@ -12,8 +12,6 @@ export class Navigation extends React.Component {
         this.state = {  }
     }
 
-
-
     render() {
         const style = {
             color: "White"

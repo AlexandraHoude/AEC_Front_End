@@ -64,9 +64,7 @@ export class FormAjout extends React.Component {
         this.setState( {urlPhoto : photos});
     }
 
-
     render() {
-        console.log(this.props.history);
         return (
             <>
                 <Banner />

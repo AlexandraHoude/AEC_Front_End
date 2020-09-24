@@ -29,8 +29,7 @@ export function Accueil() {
             <motion.div
                 animate={{ scale: 1.050 }}
                 transition={{ duration: 2 }}
-                className="trans"
-            >
+                className="trans">
                 <Row>
                     <Col>
                         <img alt="Batman" src={Batman} width={300} />
@@ -61,6 +60,5 @@ export function Accueil() {
             <br/>
             <br/>
         </Container>
-
     );
 }

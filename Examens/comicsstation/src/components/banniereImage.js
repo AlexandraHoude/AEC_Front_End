@@ -17,6 +17,5 @@ export function Banner() {
                 <br/>
             </Row>
         </Container>
-
     );
 }
