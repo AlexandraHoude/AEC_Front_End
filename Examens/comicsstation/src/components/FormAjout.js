@@ -72,7 +72,7 @@ export class FormAjout extends React.Component {
                 <Banner />
                 <Container>
                     <Row>
-                        <Col>
+                        <Col width={100}>
                             <Form>
                                 <Form.Group controlId="nomHero">
                                     <Form.Label>Nom de votre Héro</Form.Label>

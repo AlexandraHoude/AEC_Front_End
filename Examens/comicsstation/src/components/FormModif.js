@@ -84,7 +84,7 @@ export class FormModif extends React.Component {
             <>
                 <Container>
                     <Row>
-                        <Col>
+                        <Col width={100}>
                             <Form>
                                 <Form.Group controlId="nomHero">
                                     <Form.Label>Nom du hero</Form.Label>

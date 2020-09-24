@@ -29,6 +29,7 @@ export function Accueil() {
             <motion.div
                 animate={{ scale: 1.050 }}
                 transition={{ duration: 2 }}
+                className="trans"
             >
                 <Row>
                     <Col>
