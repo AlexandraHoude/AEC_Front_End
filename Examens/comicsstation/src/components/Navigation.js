@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import '../styles/navigationBar.sass';
 import Logo from "../img/comic.png";
 import {Button}  from "react-bootstrap";
-import anime from "animejs";
+import { motion } from "framer-motion";
 
 export class Navigation extends React.Component {
     constructor(props) {
@@ -22,7 +22,15 @@ export class Navigation extends React.Component {
         return (
             <>
                 <Navbar className="navigationBar" expand={'sm' | 'md' | 'lg' | 'xl'}>
-                     <Navbar.Brand href="/" className={"navbarBrand"}><img alt="Logo" src={Logo} style={{width: 120, height: 50}}/></Navbar.Brand>
+                    <motion.div
+                        animate={{
+                            scale: [1, 2, 2, 1, 1],
+                            rotate: [0, 0, 270, 270, 0],
+                            borderRadius: ["20%", "20%", "50%", "50%", "20%"],
+                        }}
+                    >
+                        <Navbar.Brand href="/" className={"navbarBrand"}><img alt="Logo" src={Logo} style={{width: 120, height: 50}}/></Navbar.Brand>
+                    </motion.div>
                     <Nav>
                         <NavLink exact to="/" style={style} activeStyle={activeStyle} className="NavText"> Accueil </NavLink>
                         <NavLink to="/CreerHero" style={style} activeStyle={activeStyle} className="NavText"> Créer votre héro </NavLink>
