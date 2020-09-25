@@ -1,3 +1,6 @@
+/* Couleurs de fond */
+/* Couleurs de polices */
+/* Style de police */
 @font-face {
   font-family: "Turret Road", cursive;
   src: url("https://fonts.googleapis.com/css2?family=Turret+Road:wght@800&display=swap");
@@ -15,5 +18,10 @@ label {
   .row {
     display: block !important;
   }
+
+  .col {
+    max-width: 100%;
+  }
 }
 
+/*# sourceMappingURL=FormAjout.css.map */
