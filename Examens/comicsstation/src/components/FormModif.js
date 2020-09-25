@@ -83,33 +83,29 @@ export class FormModif extends React.Component {
         return (
             <>
                 <Container>
-                    <Row>
-                        <Col width={100}>
-                            <Form>
-                                <Form.Group controlId="nomHero">
-                                    <Form.Label>Nom du hero</Form.Label>
-                                    <Form.Control type="text" defaultValue={this.state.donneesRecues.nom}/> {}
-                                </Form.Group>
-                                <Form.Group controlId="photoHero">
-                                    <Form.Label>URL d'une photo du Hero</Form.Label>
-                                    <Form.Control type="text" placeholder="Entrer une URL valide" onBlur={this.handlePhoto} defaultValue={this.state.donneesRecues.urlPhoto}/>
-                                </Form.Group>
-                                {this.state.donneesRecues.urlPhoto !== "" && <Image src={this.state.donneesRecues.urlPhoto} rounded width="125"/>}
-                                <Form.Group controlId="pouvoir1">
-                                    <Form.Label>Nom de l'attaque 1</Form.Label>
-                                    <Form.Control type="text" placeholder="Entrer le nom du pouvoir 1" defaultValue={this.state.donneesRecues.pouvoir[0].pouvoir1}/>
-                                </Form.Group>
-                                <Form.Group controlId="pouvoir2">
-                                    <Form.Label>Nom de l'attaque 2</Form.Label>
-                                    <Form.Control type="text" placeholder="Entrer le nom du pouvoir 2" defaultValue={this.state.donneesRecues.pouvoir[1].pouvoir2 }/>
-                                </Form.Group>
+                    <Form>
+                        <Form.Group controlId="nomHero">
+                            <Form.Label>Nom du hero</Form.Label>
+                            <Form.Control type="text" defaultValue={this.state.donneesRecues.nom}/> {}
+                        </Form.Group>
+                        <Form.Group controlId="photoHero">
+                            <Form.Label>URL d'une photo du Hero</Form.Label>
+                            <Form.Control type="text" placeholder="Entrer une URL valide" onBlur={this.handlePhoto} defaultValue={this.state.donneesRecues.urlPhoto}/>
+                        </Form.Group>
+                        {this.state.donneesRecues.urlPhoto !== "" && <Image src={this.state.donneesRecues.urlPhoto} rounded width="125"/>}
+                        <Form.Group controlId="pouvoir1">
+                            <Form.Label>Nom de l'attaque 1</Form.Label>
+                            <Form.Control type="text" placeholder="Entrer le nom du pouvoir 1" defaultValue={this.state.donneesRecues.pouvoir[0].pouvoir1}/>
+                        </Form.Group>
+                        <Form.Group controlId="pouvoir2">
+                            <Form.Label>Nom de l'attaque 2</Form.Label>
+                            <Form.Control type="text" placeholder="Entrer le nom du pouvoir 2" defaultValue={this.state.donneesRecues.pouvoir[1].pouvoir2 }/>
+                        </Form.Group>
 
-                                <Button variant="primary" type="submit" onClick={this.handleEdit}>
-                                    Enregistrer
-                                </Button>
-                            </Form>
-                        </Col>
-                    </Row>
+                        <Button variant="primary" type="submit" onClick={this.handleEdit}>
+                            Enregistrer
+                        </Button>
+                    </Form>
                 </Container>
             </>
         );

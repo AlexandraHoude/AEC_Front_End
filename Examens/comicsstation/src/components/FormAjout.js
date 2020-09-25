@@ -69,30 +69,26 @@ export class FormAjout extends React.Component {
             <>
                 <Banner />
                 <Container>
-                    <Row>
-                        <Col width={100}>
-                            <Form>
-                                <Form.Group controlId="nomHero">
-                                    <Form.Label>Nom de votre Héro</Form.Label>
-                                    <Form.Control type="text" placeholder="Entrer le nom de votre Héro" />
-                                </Form.Group>
-                                <Form.Group controlId="photoHero">
-                                    <Form.Label>URL de votre photo de Héro</Form.Label>
-                                    <Form.Control type="text" placeholder="Entrer une URL valide" onBlur={this.handlePhoto}/>
-                                </Form.Group>
-                                {this.state.urlPhoto !== "" && <Image src={this.state.urlPhoto} rounded width="125"/>}
-                                <Form.Group controlId="pouvoir1">
-                                    <Form.Label>Nom de son premier pouvoir</Form.Label>
-                                    <Form.Control type="text" placeholder="Entrer le nom de son premier pouvoir" />
-                                </Form.Group>
-                                <Form.Group controlId="pouvoir2">
-                                    <Form.Label>Nom de son deuxième pouvoir</Form.Label>
-                                    <Form.Control type="text" placeholder="Entrer le nom de de son deuxième pouvoir" />
-                                </Form.Group>
-                                <Button variant="danger" type="submit" onClick={this.handleAdd}> Enregistrer </Button>
-                            </Form>
-                        </Col>
-                    </Row>
+                    <Form>
+                        <Form.Group controlId="nomHero">
+                            <Form.Label>Nom de votre Héro</Form.Label>
+                            <Form.Control type="text" placeholder="Entrer le nom de votre Héro" />
+                        </Form.Group>
+                        <Form.Group controlId="photoHero">
+                            <Form.Label>URL de votre photo de Héro</Form.Label>
+                            <Form.Control type="text" placeholder="Entrer une URL valide" onBlur={this.handlePhoto}/>
+                        </Form.Group>
+                        {this.state.urlPhoto !== "" && <Image src={this.state.urlPhoto} rounded width="125"/>}
+                        <Form.Group controlId="pouvoir1">
+                            <Form.Label>Nom de son premier pouvoir</Form.Label>
+                            <Form.Control type="text" placeholder="Entrer le nom de son premier pouvoir" />
+                        </Form.Group>
+                        <Form.Group controlId="pouvoir2">
+                            <Form.Label>Nom de son deuxième pouvoir</Form.Label>
+                            <Form.Control type="text" placeholder="Entrer le nom de de son deuxième pouvoir" />
+                        </Form.Group>
+                        <Button variant="danger" type="submit" onClick={this.handleAdd}> Enregistrer </Button>
+                    </Form>
                 </Container>
             </>
         );

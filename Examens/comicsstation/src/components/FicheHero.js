@@ -38,7 +38,7 @@ export class Hero extends React.Component {
                 <Col xl="4" lg="6" md="6" sm="12" className="my-4">
                     <Card className="Carte h-100">
                         <Card.Body>
-                            <Typist>
+                            <Typist cursor={{ show: false }}>
                                 <div>
                                     <h2>{this.props.nom}</h2>
                                 </div>
@@ -53,8 +53,8 @@ export class Hero extends React.Component {
                                 <img src={this.props.urlPhoto} alt='photoHero' className='img-fluid img-card' />
                             </div>
                         </Link>
-                        <Link className="btn btn-success mt-2" to={"hero/" + this.props.nom + "?id=" + this.props.id}><Typist>Modifier</Typist></Link>
-                        <p className="btn btn-danger mt-1" onClick={this.removeHero}><Typist>Supprimer le Hero</Typist></p>
+                        <Link className="btn btn-success mt-2" to={"hero/" + this.props.nom + "?id=" + this.props.id}><Typist cursor={{ show: false }}>Modifier</Typist></Link>
+                        <Typist cursor={{ show: false }}><span className="delete btn btn-danger mt-1" onClick={this.removeHero}>Supprimer le Hero</span></Typist>
                     </Card>
                 </Col>
             </>
