@@ -1,7 +1,7 @@
 import React from "react";
 import Row from "react-bootstrap/Row";
-import './Categorie.css';
-import { TvShow } from "../TvShow/TvShow";
+import './categorie.css';
+import { TvShow } from "../TvShow/tvshow";
 
 const tabSuspense = [
     {
@@ -90,13 +90,13 @@ export class Categorie extends React.Component {
     AfficherCategorie() {
         if (this.props.nom === "Suspense") {
             return tabSuspense.map((element, i) => (
-                <TvShow>
+                <TvShow
                     key={"suspense" + i}
                     src={element.src}
                     alt={element.alt}
                     title={element.title}
                     //onHover={this.handleHover}
-                </TvShow>
+                ></TvShow>
             ));
         } else if (this.props.nom === "Humour") {
             return (
@@ -112,13 +112,13 @@ export class Categorie extends React.Component {
             );
         } else if (this.props.nom === "Séries américaines") {
             return tabAmericaine.map((element, i) => (
-                <TvShow>
+                <TvShow
                     key={"américaine" + i}
                     src={element.src}
                     alt={element.alt}
                     title={element.title}
                     //onHover={this.handleHover}
-                </TvShow>
+                ></TvShow>
             ));
         }
     }

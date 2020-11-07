@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="73d0571c-52fe-45b8-b09e-3d598202f66f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Programmation3/app-voyages-AlexandraHoude/src/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Integration1/sitesWeb/ProjetFinal/image/GOW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Integration1/sitesWeb/ProjetFinal/image/daysgone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Integration1/sitesWeb/ProjetFinal/image/ratchet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Integration1/sitesWeb/ProjetFinal/image/tlouPS4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Integration1/sitesWeb/ProjetFinal/image/uncharted4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Integration1/sitesWeb/bootstrap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Integration1/sitesWeb/bootstrap/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Integration2/Projet Sass/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Integration2/Projet Sass/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Integration2/Projet Sass/style/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Integration2/Projet Sass/style/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Integration2/Projet Sass/style/footer.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../Integration2/Projet Sass/style/footer.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Integration2/Projet Sass/style/footer.sass" beforeDir="false" afterPath="$PROJECT_DIR$/../Integration2/Projet Sass/style/footer.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/becflix/src/component/Accueil/Accueil.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmation2/becflix/src/component/Accueil/Accueil.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/becflix/src/component/Catalogue/catalogue.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmation2/becflix/src/component/Catalogue/catalogue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/becflix/src/component/Categorie/categorie.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmation2/becflix/src/component/Categorie/categorie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/bottin/src/component/Accueil/Accueil.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmation2/bottin/src/component/Accueil/Accueil.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/bottin/src/component/Card/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmation2/bottin/src/component/Card/Card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/bottin/src/component/Card/style-card.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmation2/bottin/src/component/Card/style-card.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/bottin/src/component/Connexion/Connexion.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmation2/bottin/src/component/Connexion/Connexion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/bottin/src/component/Deconnexion/Deconnexion.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmation2/bottin/src/component/Deconnexion/Deconnexion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/recettes/src/components/contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmation2/recettes/src/components/contacts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/thelastdance/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/thelastdance/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/thelastdance/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/thelastdance/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/thelastdance/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/thelastdance/.idea/thelastdance.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/thelastdance/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/thelastdance/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/thelastdance/build/asset-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/thelastdance/build/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/thelastdance/build/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/thelastdance/build/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/thelastdance/build/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/thelastdance/build/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/thelastdance/build/precache-manifest.a8f7f6fcd4819a01cc8fab324924f7db.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/thelastdance/build/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/thelastdance/build/service-worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/thelastdance/build/static/css/main.d1b05096.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/thelastdance/build/static/css/main.d1b05096.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/thelastdance/build/static/js/2.8f6e9f04.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/thelastdance/build/static/js/2.8f6e9f04.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/thelastdance/build/static/js/2.8f6e9f04.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/thelastdance/build/static/js/main.80c0bf06.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/thelastdance/build/static/js/main.80c0bf06.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/thelastdance/build/static/js/runtime-main.f66a7021.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/thelastdance/build/static/js/runtime-main.f66a7021.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/thelastdance/build/static/media/logo.5d5d9eef.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/thelastdance/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/thelastdance/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/thelastdance/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/thelastdance/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/thelastdance/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/thelastdance/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/thelastdance/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/thelastdance/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/thelastdance/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/thelastdance/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/thelastdance/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/thelastdance/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/thelastdance/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/thelastdance/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/thelastdance/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmation2/thelastdance/src/setupTests.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1jvPztP71Ng0AgRUi9oGuEecYt1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="73d0571c-52fe-45b8-b09e-3d598202f66f" name="Default Changelist" comment="" />
+      <created>1604681857534</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604681857534</updated>
+      <workItem from="1604681858589" duration="13012000" />
+      <workItem from="1604757567432" duration="5683000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2419" y="206" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604696655465">
+      <screen x="1920" y="-1" width="1536" height="920" />
+    </state>
+    <state x="2419" y="206" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.-1.1536.920/0.0.1536.920@1920.-1.1536.920" timestamp="1604696655465" />
+  </component>
+</project>

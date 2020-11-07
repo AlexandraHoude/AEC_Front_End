@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'Permanent Marker';
+    src: url(https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap);
+}
+
+html,body {
+    margin:0;
+    height:100%;
+    background-image: url("../Media/desk.jpg");
+}
+
+.slate {
+    background-color: #e9ecef5c;
+    height: 100%;
+    border: white;
+    border-style: double;
+    border-width: 30px;
+
+}
+
+h1 {
+    font-size: 6rem;
+    letter-spacing: -0.125rem;
+    font-family: "Permanent Marker";
+    padding-top: 50px;
+    padding-left: 15px;
+}
+
+h2,h3,h4 {
+    font-family: "Permanent Marker";
+    padding-left: 15px;
+}
+
+.techno {
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.Projects {
+    max-width: 400px;
+}
+
+ul {
+    position: relative;
+    display: flex;
+    transform-style: preserve-3d;
+}
+ul li {
+    position: relative;
+    list-style: none;
+    width: 60px;
+    height: 60px;
+    margin: 0px 20px;
+}
+ul li:before{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: -5px;
+    width: 100%;
+    height: 10px;
+    background: #2a2a2a;
+    transform-origin: top;
+    transform: skewX(-41deg);
+}
+ul li:after{
+    content: '';
+    position: absolute;
+    top:5px;
+    left: -9px;
+    width: 9px;
+    height: 100%;
+    background: #2a2a2a;
+    transform-origin: right;
+    transform: skewY(-49deg);
+}
+ul li span{
+    position: absolute;
+    top: 0;
+    lef: 0;
+    width: 100%;
+    height: 100%;
+    display: flex !important;
+    background: #2a2a2a;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 30px !important;
+    transition: 1.5s ease-out;
+}
+ul li:hover span {
+    z-index: 1000;
+    transition: .3s;
+    color: #fff;
+    box-shadw: -1px 1px 1px rgba(0, 0, 0, .5);
+}
+ul li:hover span:nth-child(5){
+    transform: translate(40px, -40px);
+    opacity: 1;
+}
+ul li:hover span:nth-child(4){
+    transform: translate(30px, -30px);
+    opacity: .8;
+}
+ul li:hover span:nth-child(3){
+    transform: translate(20px, -20px);
+    opacity: .6;
+}
+ul li:hover span:nth-child(2){
+    transform: translate(10px, -10px);
+    opacity: .4;
+}ul li:hover span:nth-child(1){
+     transform: translate(0px, 0px);
+     opacity: .2;
+ }
+ul li:nth-child(1):hover span{
+    background: #0377fc !important;
+}
+ul li:nth-child(2):hover span{
+    background: #2C3456 !important;
+}
+ul li:nth-child(3):hover span{
+    background: #fc0303 !important;
+}
+ul li:nth-child(4):hover span{
+    background: #84d415 !important;
+}

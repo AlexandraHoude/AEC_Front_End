@@ -1,5 +1,5 @@
 import React from 'react';
-import {Categorie} from '../Categorie/Categorie';
+import {Categorie} from '../Categorie/categorie';
 
 export class Catalogue extends React.Component{
     render() {

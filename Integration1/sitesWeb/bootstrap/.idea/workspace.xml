@@ -2,7 +2,106 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="110cc660-d6ea-404d-ba78-18e8c64876ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/style.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Integration2/OnePager Film/.idea/Examen1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Integration2/filtre et graphique/.idea/Examen1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Programmation2/becflix/.idea/becflix.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Programmation2/bottin/.idea/bottin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Programmation2/recettes/.idea/recettes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Programmation2/recettes/src/components/contacts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjetFinal/image/GOW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjetFinal/image/daysgone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjetFinal/image/ratchet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjetFinal/image/tlouPS4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjetFinal/image/uncharted4.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Integration2/Examen1/canva.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Integration2/Examen1/formulaire.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Integration2/filtre et graphique/tableau.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Integration2/filtre et graphique/tableau.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Integration2/formulaire/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Integration2/formulaire/.idea/formulaire.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Integration2/formulaire/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Integration2/formulaire/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Integration2/formulaire/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Integration2/formulaire/Page2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Integration2/formulaire/bootstrap-4.4.1-dist/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Integration2/formulaire/bootstrap-4.4.1-dist/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Integration2/formulaire/bootstrap-4.4.1-dist/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Integration2/formulaire/bootstrap-4.4.1-dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Integration2/formulaire/bootstrap-4.4.1-dist/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Integration2/formulaire/bootstrap-4.4.1-dist/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Integration2/formulaire/bootstrap-4.4.1-dist/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Integration2/formulaire/bootstrap-4.4.1-dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Integration2/formulaire/bootstrap-4.4.1-dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Integration2/formulaire/bootstrap-4.4.1-dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Integration2/formulaire/bootstrap-4.4.1-dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Integration2/formulaire/bootstrap-4.4.1-dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Integration2/formulaire/bootstrap-4.4.1-dist/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Integration2/formulaire/bootstrap-4.4.1-dist/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Integration2/formulaire/bootstrap-4.4.1-dist/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Integration2/formulaire/bootstrap-4.4.1-dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Integration2/formulaire/bootstrap-4.4.1-dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Integration2/formulaire/bootstrap-4.4.1-dist/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Integration2/formulaire/bootstrap-4.4.1-dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Integration2/formulaire/bootstrap-4.4.1-dist/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Integration2/formulaire/image/cookie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Integration2/formulaire/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Integration2/formulaire/style/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Integration2/paiementEnLigne/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Integration2/paiementEnLigne/style/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Integration2/pratiqueExam/SVG/svg.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/becflix/src/component/Accueil/Accueil.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation2/becflix/src/component/Accueil/Accueil.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/becflix/src/component/Catalogue/catalogue.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation2/becflix/src/component/Catalogue/catalogue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/becflix/src/component/Categorie/categorie.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation2/becflix/src/component/Categorie/categorie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/bottin/src/component/Accueil/Accueil.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation2/bottin/src/component/Accueil/Accueil.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/bottin/src/component/Card/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation2/bottin/src/component/Card/Card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/bottin/src/component/Card/style-card.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation2/bottin/src/component/Card/style-card.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/bottin/src/component/Connexion/Connexion.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation2/bottin/src/component/Connexion/Connexion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/bottin/src/component/Deconnexion/Deconnexion.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programmation2/bottin/src/component/Deconnexion/Deconnexion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/thelastdance/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/thelastdance/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/thelastdance/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/thelastdance/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/thelastdance/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/thelastdance/.idea/thelastdance.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/thelastdance/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/thelastdance/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/thelastdance/build/asset-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/thelastdance/build/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/thelastdance/build/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/thelastdance/build/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/thelastdance/build/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/thelastdance/build/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/thelastdance/build/precache-manifest.a8f7f6fcd4819a01cc8fab324924f7db.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/thelastdance/build/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/thelastdance/build/service-worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/thelastdance/build/static/css/main.d1b05096.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/thelastdance/build/static/css/main.d1b05096.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/thelastdance/build/static/js/2.8f6e9f04.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/thelastdance/build/static/js/2.8f6e9f04.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/thelastdance/build/static/js/2.8f6e9f04.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/thelastdance/build/static/js/main.80c0bf06.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/thelastdance/build/static/js/main.80c0bf06.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/thelastdance/build/static/js/runtime-main.f66a7021.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/thelastdance/build/static/js/runtime-main.f66a7021.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/thelastdance/build/static/media/logo.5d5d9eef.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/thelastdance/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/thelastdance/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/thelastdance/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/thelastdance/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/thelastdance/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/thelastdance/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/thelastdance/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/thelastdance/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/thelastdance/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/thelastdance/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/thelastdance/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/thelastdance/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/thelastdance/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/thelastdance/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/thelastdance/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programmation2/thelastdance/src/setupTests.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +135,9 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../facebookExec" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../Infrastructure Web/monpremiersitephp_crud_modal" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -77,6 +177,8 @@
       <workItem from="1580413432329" duration="6077000" />
       <workItem from="1580430942195" duration="255000" />
       <workItem from="1580563762583" duration="961000" />
+      <workItem from="1592660815223" duration="2145000" />
+      <workItem from="1593126445393" duration="22000" />
     </task>
     <servers />
   </component>
@@ -84,10 +186,17 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="301" key="FileChooserDialogImpl" timestamp="1580566569694">
+    <state x="594" y="298" key="EditFileWatcherDialog" timestamp="1592660833554">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="2660" y="336" key="FileChooserDialogImpl/0.0.1920.1160/1920.0.1920.1160@1920.0.1920.1160" timestamp="1580145204296" />
-    <state x="740" y="301" key="FileChooserDialogImpl/1920.-1080.1280.707/0.0.1920.1040@0.0.1920.1040" timestamp="1580566569694" />
+    <state x="594" y="298" key="EditFileWatcherDialog/3840.0.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592660833554" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1593126465210">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/3840.0.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593126465210" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1593126447126">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/3840.0.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1593126447126" />
   </component>
 </project>
