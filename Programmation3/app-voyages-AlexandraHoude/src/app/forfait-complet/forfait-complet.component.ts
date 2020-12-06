@@ -14,16 +14,12 @@ export interface Tile {
   styleUrls: ['./forfait-complet.component.css']
 })
 
-
-
 export class ForfaitCompletComponent implements OnInit {
   @Input() forfait: Forfait;
 
   constructor() { }
 
   ngOnInit(): void {
-        console.log('Forfait:', this.forfait );
-
+    console.log('Forfait:', this.forfait );
   }
-
 }

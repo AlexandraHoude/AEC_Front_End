@@ -1,0 +1,144 @@
+<form class="formulaire-forfait">
+  <mat-form-field>
+    <mat-label>Vous allez où ? </mat-label>
+    <input required
+           type="text"
+           placeholder="Destination"
+           aria-label="Number"
+           matInput
+           [formControl]="destination"
+           [matAutocomplete]="auto">
+    <mat-error *ngIf="destination.hasError('required')">
+      La destination est <strong>obligatoire</strong>
+    </mat-error>
+    <mat-autocomplete #auto="matAutocomplete">
+      <mat-option *ngFor="let option of optionsFiltreDestination | async" [value]="option">
+        {{option}}
+      </mat-option>
+    </mat-autocomplete>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Vous partez d'où ? </mat-label>
+    <input required type="text"
+           placeholder="Ville de Départ"
+           aria-label="Number"
+           matInput
+           [formControl]="depart"
+           [matAutocomplete]="auto2">
+    <mat-error *ngIf="depart.hasError('required')">
+      La ville de départ est <strong>obligatoire</strong>
+    </mat-error>
+    <mat-autocomplete #auto2="matAutocomplete">
+      <mat-option *ngFor="let option of optionsFiltreDepart | async" [value]="option">
+        {{option}}
+      </mat-option>
+    </mat-autocomplete>
+  </mat-form-field>
+  <br>
+  <mat-form-field>
+    <mat-label>Hôtel</mat-label>
+    <input required
+           minlength="2"
+           type="text"
+           placeholder="Nom de l'hôtel"
+           aria-label="Number"
+           matInput
+           [formControl]="nom">
+    <mat-hint>Minimum de 2 caractères</mat-hint>
+    <mat-error *ngIf="nom.hasError('required')">
+      Le nom de l'hôtel est <strong>obligatoire</strong>
+    </mat-error>
+    <mat-error *ngIf="nom.hasError('minlength')">
+      La longueur minimale du nom de l'hotel est de 2 caractères.
+    </mat-error>
+  </mat-form-field>
+  <mat-form-field>
+    <input required
+           minlength="2"
+           type="text"
+           placeholder="Adresse"
+           aria-label="Number"
+           matInput
+           [formControl]="adresse">
+    <mat-hint>Minimum de 2 caractères</mat-hint>
+    <mat-error *ngIf="adresse.hasError('required')">
+      L'adresse est <strong>obligatoire</strong>
+    </mat-error>
+    <mat-error *ngIf="adresse.hasError('minlength')">
+      La longueur minimale de l'adresse est de 2 caractères.
+    </mat-error>
+
+  </mat-form-field>
+  <br>
+    <mat-label>Nombre d'étoiles </mat-label>
+    <mat-slider
+      required
+      thumbLabel
+      tickInterval="1"
+      min="1"
+      max="5"
+      [formControl]="etoile">
+      <mat-error *ngIf="etoile.hasError('required')">
+        Le nombre d'etoile est <strong>obligatoire</strong>
+      </mat-error>
+    </mat-slider>
+  <mat-form-field>
+    <mat-label>Nombre de chambres</mat-label>
+    <input required
+           min="0"
+           type="number"
+           aria-label="Number"
+           matInput
+           [formControl]="chambre">
+    <mat-error *ngIf="chambre.hasError('required')">
+      Le nombre de chambre est <strong>obligatoire</strong>
+    </mat-error>
+    <mat-error *ngIf="chambre.hasError('min')">
+      Le nombre de chambre doit être positif
+    </mat-error>
+  </mat-form-field>
+  <br>
+  <section *ngFor="let item of this.mesCaracteristiques">
+    <mat-checkbox [checked]="false" >{{item}}</mat-checkbox>
+  </section>
+  <mat-form-field appearance="fill">
+    <mat-label>Date de Départ</mat-label>
+    <input required
+           matInput
+           [matDatepicker]="picker1"
+           [formControl]="dateDepart">
+    <mat-error *ngIf="dateDepart.hasError('required')">
+      La date de départ est <strong>obligatoire</strong>
+    </mat-error>
+    <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+    <mat-datepicker #picker1></mat-datepicker>
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>Date de retour</mat-label>
+    <input required
+           matInput
+           [matDatepicker]="picker2"
+           [formControl]="dateRetour">
+    <mat-error *ngIf="dateRetour.hasError('required')">
+      La date de retour est <strong>obligatoire</strong>
+    </mat-error>
+    <mat-datepicker-toggle matSuffix [for]="picker2"></mat-datepicker-toggle>
+    <mat-datepicker #picker2></mat-datepicker>
+  </mat-form-field>
+  <br>
+  <mat-form-field>
+    <mat-label>Prix</mat-label>
+    <input required
+           min="0"
+           type="number"
+           aria-label="Number"
+           matInput
+           [formControl]="prix">
+    <mat-error *ngIf="prix.hasError('required')">
+      Le prix est <strong>obligatoire</strong>
+    </mat-error>
+    <mat-error *ngIf="prix.hasError('min')">
+      Le prix doit être positif
+    </mat-error>
+  </mat-form-field>
+</form>

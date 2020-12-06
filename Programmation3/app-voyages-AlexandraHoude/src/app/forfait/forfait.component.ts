@@ -1,5 +1,4 @@
 import { Component, Input, OnInit } from '@angular/core';
-
 import { Forfait } from '../forfait';
 
 @Component({
@@ -15,5 +14,4 @@ export class ForfaitComponent implements OnInit {
   ngOnInit(): void {
     console.log('Forfait:', this.forfait );
   }
-  unsorted (){}
 }

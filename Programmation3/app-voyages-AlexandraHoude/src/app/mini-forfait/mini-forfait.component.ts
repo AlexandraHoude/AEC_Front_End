@@ -1,7 +1,4 @@
-  
 import { Component, Input, OnInit } from '@angular/core';
-import { MatCardModule } from '@angular/material/card';
-
 import { Forfait } from '../forfait';
 
 @Component({
@@ -16,7 +13,5 @@ export class MiniForfaitComponent implements OnInit {
 
   ngOnInit(): void {
     console.log('Forfait:', this.forfait );
-
   }
-
 }

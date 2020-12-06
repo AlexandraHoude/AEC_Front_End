@@ -15,7 +15,7 @@ export class ListeForfaitsComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    console.log('Mes forfaits',this.mesForfaits);
+    console.log('Mes forfaits', this.mesForfaits);
   }
 
 }

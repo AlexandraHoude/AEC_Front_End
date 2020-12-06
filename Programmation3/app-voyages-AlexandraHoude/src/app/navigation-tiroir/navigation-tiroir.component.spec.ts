@@ -1,19 +1,19 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { ListeForfaitsComponent } from './liste-forfaits.component';
+import { NavigationTiroirComponent } from './navigation-tiroir.component';
 
-describe('ListeForfaitsComponent', () => {
-  let component: ListeForfaitsComponent;
-  let fixture: ComponentFixture<ListeForfaitsComponent>;
+describe('NavigationTiroirComponent', () => {
+  let component: NavigationTiroirComponent;
+  let fixture: ComponentFixture<NavigationTiroirComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ListeForfaitsComponent ]
+      declarations: [ NavigationTiroirComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ListeForfaitsComponent);
+    fixture = TestBed.createComponent(NavigationTiroirComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

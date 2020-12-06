@@ -1,4 +1,4 @@
-<mat-card style=" background-color: lightblue; border: 2px solid rgb(69, 69, 238);margin: 5px" >
+<mat-card style=" background-color: rgb(213, 240, 247); border: 2px solid rgb(71, 215, 252);margin: 5px" >
     <mat-card-header style="display: flex; justify-content: space-between" >
         <mat-card-title>{{forfait.destination}} </mat-card-title>
         <mat-card-subtitle>de {{forfait.villeDepart}}</mat-card-subtitle>
@@ -6,10 +6,10 @@
        <mat-card-subtitle>Forfait Vedette</mat-card-subtitle>
       </div>
     </mat-card-header>
-    <mat-card-content style="color: rgb(69, 69, 238);text-align: center;  font-size: 2em;">
+    <mat-card-content style="color: rgb(3, 201, 252);text-align: center;  font-size: 2em;">
        Hotel {{forfait.hotel.nom}}
     </mat-card-content>
-    <mat-card-actions style="text-align: center;  font-size: 2em;color: rgb(69, 69, 238);">
+    <mat-card-actions style="text-align: center;  font-size: 2em;color: rgb(3, 201, 252);">
         <div *ngIf="forfait.rabais>0; else elseBlock" style= 'display:flex; justify-content: space-around'>
             <p style="text-decoration: line-through; color: red">{{forfait.prix}}$</p>
         </div>
@@ -17,7 +17,7 @@
 
     </mat-card-actions>
     <mat-card-footer style='display: flex; justify-content: space-between; margin-left: 1em;margin-right: 1em; color:#606060;'>
-        <p>{{forfait.hotel.etoiles}} étoiles</p>
+      <ngx-star-rating [total]="5" [filledColor]="'#ff7b00'" [type]="'filled'" [rating]="forfait.hotel.etoiles" [readonly]="true"></ngx-star-rating>
 
         <p>{{forfait.dateDepart}}, 7 jours</p>
     </mat-card-footer>

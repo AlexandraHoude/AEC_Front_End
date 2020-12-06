@@ -1,0 +1,28 @@
+<mat-form-field appearance="fill">
+  <mat-label>Date de départ</mat-label>
+  <input matInput [matDatepicker]="picker">
+  <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+  <mat-datepicker #picker></mat-datepicker>
+</mat-form-field>
+<br>
+<h5>Veuillez choisir le nombre de jours</h5>
+<mat-form-field appearance="fill">
+  <mat-label>Nombre de jours</mat-label>
+  <select matNativeControl required>
+    <option value="7 jours">7 jours</option>
+    <option value="10 jours">10 jours</option>
+    <option value="14 jours">14 jours</option>
+  </select>
+</mat-form-field>
+<br>
+<mat-label>Nombre d'étoiles </mat-label>
+<mat-slider
+  thumbLabel
+  tickInterval="1"
+  min="1"
+  max="5">
+</mat-slider>
+<br>
+<section *ngFor="let item of this.mesCaracteristiques">
+  <mat-checkbox [checked]="false" >{{item}}</mat-checkbox>
+</section>
