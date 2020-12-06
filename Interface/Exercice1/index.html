@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <title>Manipulation de vue</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+    <h1>{{mydetails()}}</h1>
+    <br>
+    <br>
+    <p>{{message}}</p>
+    <p>{{d.getFullYear()}}</p>
+    <br>
+    <p>{{temperature()}}</p>
+    <input type="checkbox" v-model="isFahrenheit">
+    <br><br>
+
+    <input type="radio" id="blue" value="blue" v-model="color">
+    <label for="blue">Bleu</label>
+    <br>
+    <input type="radio" id="red" value="red" v-model="color">
+    <label for="red">Rouge</label>
+    <br>
+    <input type="checkbox" id="checkbox" v-model="showPara">
+    <label for="checkbox">Voulez-vous afficher le paragraphe?</label>
+    <br>
+    <p v-show="showPara" v-bind:class="color">Paragraphe à afficher</p>
+    <br>
+    <p v-bind:title="title" v-on:click="changeTitle">Voici un texte quelconque</p>
+    <br>
+    <br>
+    <h3>Liste de choses a faire</h3>
+    <ul id="liste">
+        <li v-for="item in items" :key="item.toDo">
+            {{ item.toDo }}
+        </li>
+    </ul>
+    <br>
+</div>
+</div>
+<script>
+    var vm = new Vue({
+        el: "#app",
+        data: {
+            titre: "Bienvenue sur mon site!",
+            firstname: "Alexandra",
+            lastname: "Houde",
+            message: "Salut!",
+            d: new Date(),
+            c: 10,
+            isFahrenheit: false,
+            color: "black",
+            showPara: false,
+            title: "title initial",
+            items: [
+                { toDo: 'Faire l\'épicerie '},
+                { toDo: 'vaiselle' },
+                { toDo: 'lavage' }
+            ]
+        },
+        methods: {
+            mydetails: function () {
+                return (
+                    "Bonjour je m'appelle " + this.firstname + " " + this.lastname + ", "+ this.titre
+                );
+            },
+            temperature: function () {
+                return (
+                    this.isFahrenheit ? this.c * 1.8 + 32.0 + " °F" : this.c + " °C"
+                );
+            },
+            changeTitle: function () {
+                return (
+                    this.title = "title modifié"
+                );
+            },
+        },
+    });
+</script>
+
+
+</body>
+</html>

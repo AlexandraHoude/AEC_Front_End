@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="486f98e7-7f36-40ea-a5a9-47e40110af31" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation3/app-voyages-AlexandraHoude/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/app-voyages-AlexandraHoude/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation3/app-voyages-AlexandraHoude/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/app-voyages-AlexandraHoude/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation3/app-voyages-AlexandraHoude/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/app-voyages-AlexandraHoude/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation3/app-voyages-AlexandraHoude/src/app/forfait-complet/forfait-complet.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/app-voyages-AlexandraHoude/src/app/forfait-complet/forfait-complet.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation3/app-voyages-AlexandraHoude/src/app/forfait-mock.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/app-voyages-AlexandraHoude/src/app/forfait-mock.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation3/app-voyages-AlexandraHoude/src/app/forfait.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/app-voyages-AlexandraHoude/src/app/forfait.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation3/app-voyages-AlexandraHoude/src/app/hotel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/app-voyages-AlexandraHoude/src/app/hotel.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programmation3/app-voyages-AlexandraHoude/src/app/mini-forfait/mini-forfait.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programmation3/app-voyages-AlexandraHoude/src/app/mini-forfait/mini-forfait.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../portfolio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../portfolio/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1klIQXPjdTC1AMa7okKEyoFgDqW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Programmation3/app-voyages-AlexandraHoude" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="486f98e7-7f36-40ea-a5a9-47e40110af31" name="Default Changelist" comment="" />
+      <created>1606268735647</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606268735647</updated>
+      <workItem from="1606268736709" duration="698000" />
+      <workItem from="1606436028547" duration="97000" />
+      <workItem from="1606774554576" duration="10162000" />
+      <workItem from="1606865998595" duration="781000" />
+      <workItem from="1606937291786" duration="25000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="624" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606776293377">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="624" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/3840.0.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1606776293377" />
+    <state x="458" y="71" key="FileChooserDialogImpl" timestamp="1606937317163">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="458" y="71" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1606937317163" />
+    <state x="687" y="215" key="FileChooserDialogImpl/3840.0.1280.693/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1606436124643" />
+  </component>
+</project>
