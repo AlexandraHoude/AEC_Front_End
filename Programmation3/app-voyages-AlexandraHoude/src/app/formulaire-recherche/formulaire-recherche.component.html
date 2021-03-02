@@ -9,9 +9,7 @@
 <mat-form-field appearance="fill">
   <mat-label>Nombre de jours</mat-label>
   <select matNativeControl required>
-    <option value="7 jours">7 jours</option>
-    <option value="10 jours">10 jours</option>
-    <option value="14 jours">14 jours</option>
+    <option *ngFor="let item of this.mesjours" [value]="item" >{{item}}</option>
   </select>
 </mat-form-field>
 <br>

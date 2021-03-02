@@ -12,6 +12,5 @@ export class ForfaitComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    console.log('Forfait:', this.forfait );
   }
 }

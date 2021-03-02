@@ -2,7 +2,7 @@ import { Forfait } from './forfait';
 
 export const forfaits: Forfait [] = [
     {
-        id: 1,
+        _id: 1,
         destination: 'Playa Blanca, Panama',
         villeDepart: 'Montréal',
         hotel: {
@@ -17,7 +17,7 @@ export const forfaits: Forfait [] = [
                   'Toboggan aquatique',
                   'Casse-croûte',
                   'Gym',
-                  'Salle de jeux vidéo',
+                  'Salle de jeux v_idéo',
                   '5 restaurants',
                   'WiFi: Hall'
                 ],
@@ -26,10 +26,11 @@ export const forfaits: Forfait [] = [
         dateRetour: '10/11/2020',
         prix: 1650,
         rabais: 200,
-        forfaitVedette: true
+        forfaitVedette: true,
+        da: '1996358'
     },
     {
-        id: 2,
+        _id: 2,
         destination: 'Antigua , Antigua et Barbuda',
         villeDepart: 'Montréal',
         hotel: {
@@ -50,10 +51,11 @@ export const forfaits: Forfait [] = [
         dateRetour: '10/11/2020',
         prix: 1805,
         rabais: 0,
-        forfaitVedette: false
+        forfaitVedette: false,
+        da: '1996358'
     },
     {
-        id: 3,
+        _id: 3,
         destination: 'Montego Bay, Jamaique',
         villeDepart: 'Montréal',
         hotel: {
@@ -75,10 +77,11 @@ export const forfaits: Forfait [] = [
         dateRetour: '10/11/2020',
         prix: 825,
         rabais: 50,
-        forfaitVedette: false
+        forfaitVedette: false,
+        da: '1996358'
     },
     {
-        id: 4,
+        _id: 4,
         destination: 'Saint-Martin',
         villeDepart: 'Montréal',
         hotel: {
@@ -99,10 +102,11 @@ export const forfaits: Forfait [] = [
         dateRetour: '10/11/2020',
         prix: 1395,
         rabais: 149,
-        forfaitVedette: true
+        forfaitVedette: true,
+        da: '1996358'
     },
     {
-        id: 5,
+        _id: 5,
         destination: 'Cancun, Mexique',
         villeDepart: 'Québec',
         hotel: {
@@ -124,6 +128,7 @@ export const forfaits: Forfait [] = [
         dateRetour: '10/11/2020',
         prix: 1014,
         rabais: 300,
-        forfaitVedette: true
+        forfaitVedette: true,
+        da: '1996358'
     },
 ];

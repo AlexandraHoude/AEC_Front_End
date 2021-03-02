@@ -19,8 +19,22 @@ import { MatNativeDateModule} from '@angular/material/core';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import { FormulaireRechercheComponent } from './formulaire-recherche/formulaire-recherche.component';
-import { NavigationTiroirComponent } from './navigation-tiroir/navigation-tiroir.component';
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
+import { ForfaitXComponent } from './forfait-x/forfait-x.component';
+import { ForfaitYComponent } from './forfait-y/forfait-y.component';
+import { AproposComponent } from './apropos/apropos.component';
+import { AdministrationComponent } from './administration/administration.component';
+import {RouterModule} from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
+import { VoyagesService } from './voyages.service';
+import { AppRoutingModule } from '../app-routing.module';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { MatTableModule } from '@angular/material/table';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatIconModule } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
+import {HomeComponent} from './home/home.component';
+import { ChartsModule } from 'ng2-charts';
 
 @NgModule({
   declarations: [
@@ -31,7 +45,11 @@ import { MatAutocompleteModule } from '@angular/material/autocomplete';
     ForfaitCompletComponent,
     FormulaireForfaitComponent,
     FormulaireRechercheComponent,
-    NavigationTiroirComponent
+    HomeComponent,
+    ForfaitXComponent,
+    ForfaitYComponent,
+    AproposComponent,
+    AdministrationComponent,
   ],
   imports: [
     BrowserModule,
@@ -40,6 +58,7 @@ import { MatAutocompleteModule } from '@angular/material/autocomplete';
     MatCardModule,
     MatFormFieldModule,
     MatSliderModule,
+    MatTableModule,
     FormsModule,
     MatInputModule,
     MatNativeDateModule,
@@ -48,9 +67,17 @@ import { MatAutocompleteModule } from '@angular/material/autocomplete';
     MatSidenavModule,
     StarRatingModule,
     ReactiveFormsModule,
-    MatAutocompleteModule
+    MatAutocompleteModule,
+    RouterModule,
+    HttpClientModule,
+    AppRoutingModule,
+    NgbModule,
+    MatToolbarModule,
+    MatButtonModule,
+    MatIconModule,
+    ChartsModule
   ],
-  providers: [],
+  providers: [VoyagesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

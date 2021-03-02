@@ -1,19 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { NavigationTiroirComponent } from './navigation-tiroir.component';
 
-describe('NavigationTiroirComponent', () => {
-  let component: NavigationTiroirComponent;
-  let fixture: ComponentFixture<NavigationTiroirComponent>;
+import { AdministrationComponent } from './administration.component';
+
+describe('AdministrationComponent', () => {
+  let component: AdministrationComponent;
+  let fixture: ComponentFixture<AdministrationComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NavigationTiroirComponent ]
+      declarations: [ AdministrationComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(NavigationTiroirComponent);
+    fixture = TestBed.createComponent(AdministrationComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

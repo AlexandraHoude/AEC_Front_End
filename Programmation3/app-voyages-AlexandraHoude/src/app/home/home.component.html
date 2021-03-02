@@ -1,0 +1,18 @@
+<div class="sidenav-content">
+  <div style="position: relative;">
+    <mat-grid-list cols="3" rowHeight="2:2">
+    <span *ngFor="let item of mesForfaits">
+      <mat-grid-tile  *ngIf="item.forfaitVedette">
+        <app-mini-forfait  [forfait]="item" style="position: absolute;  height: 100%;width: 100%;" ></app-mini-forfait>
+      </mat-grid-tile>
+    </span>
+    </mat-grid-list>
+    <br>
+    <br>
+    <mat-grid-list cols="1" rowHeight='2:1' >
+      <mat-grid-tile *ngFor="let item of mesForfaits">
+        <app-forfait-complet  [forfait]="item" style="position: relative;  height: 100%;width: 100%; "></app-forfait-complet>
+      </mat-grid-tile>
+    </mat-grid-list>
+  </div>
+</div>

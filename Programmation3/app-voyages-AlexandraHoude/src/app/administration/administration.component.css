@@ -1,0 +1,55 @@
+
+table {
+  width: 100%;
+}
+
+#heroFormAjout {
+  padding-left:24px;
+  padding-right: 24px;
+}
+
+.input-full-width {
+  width:100%
+}
+
+table {
+  width: 100%;
+}
+
+.mat-column-nom {
+  width:100%;
+  margin: 0 5%
+}
+
+.mat-column-actions {
+  min-width:90px !important;
+}
+
+.mat-form-field {
+  margin: 0 5%
+}
+
+form h3{
+  margin: 0 5%
+}
+
+form h5 {
+  margin: 0 5%
+}
+
+form section{
+  margin: 0 5%
+}
+
+.boutonsAction {
+  padding:0
+}
+
+.boutonsAction form {
+  display: inline-block;
+}
+
+#chart {
+  height: 600px;
+  width: 600px;
+}
