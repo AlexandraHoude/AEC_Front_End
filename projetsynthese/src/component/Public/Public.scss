@@ -1,0 +1,180 @@
+@import './variables.scss';
+
+body, html {
+  height: 100%;
+}
+
+@mixin text-cartes {
+  text-align: center;
+  padding-bottom: $padding-bottom;
+  padding-top: 1.25rem;
+}
+
+@mixin image-pub {
+  background-color: $backgroundPub;
+}
+
+@mixin pub-stage {
+  padding: 14%;
+}
+
+
+/* Propriété de l'image Hero (hero) */
+.Hero-image {
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Propriété de la barre de recherche (recherche) */
+
+.Recherche {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+/* Propriété pour les cartes de stage (CarteStage) */
+
+.carte-stage {
+@include text-cartes;
+
+}
+
+.card {
+  box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  text-align: center;
+  background-color: #f1f1f1;
+  margin-right: 0.3125rem;
+}
+
+.card-columns {
+  column-count: 4 !important;
+  padding-top: $padding-top;
+}
+
+/* Propriété pour les pubs de la page d'accueil (PublicationStage + PublicationStage2) */
+
+.pub-stage-photo {
+@include image-pub;
+}
+
+.pub-stage {
+@include pub-stage;
+}
+
+.carte-stagiaire {
+@include text-cartes;
+}
+
+
+.pub2-stage-photo {
+  @include image-pub;
+}
+
+/* Propriété pour le composant Schema (Schema) */
+
+.Schema {
+  text-align: center;
+  padding-top: $padding-top;
+  padding-bottom: $padding-bottom;
+}
+
+/* Propriété pour le pied de page (PiedPage) */
+
+.site-footer {
+  background-color: $backgroundPub;
+  padding-top: $padding-top;
+  padding-bottom: $padding-bottom;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Propriété pour la liste des offres de stage (ListeOffreStage) */
+
+.carte-offre-stage {
+  width: 150% !important;
+  padding-top: $padding-top;
+  padding-bottom: $padding-bottom;
+
+}
+
+/* Propriété pour les secteur d'activité (SecteurActivite) */
+
+.secteur-activite-card {
+  width: 25rem !important;
+
+}
+
+.secteur-activite {
+  padding-top: $padding-top;
+  padding-bottom: $padding-bottom;
+}
+
+/* Propriété pour la page détail offre de stage (PageOffreStage) */
+
+.carte-offre-detail {
+  padding-top: $padding-top;
+  padding-bottom: $padding-bottom;
+}
+
+/* Propriété pour le bas de page (BasPageGenerique) */
+
+.carte-apropos-img {
+  height: 14rem;
+  border-style: none !important;
+}
+
+/* Propriété pour la page À Propos (APropos) */
+
+.texte-generique-apropos {
+  margin-top: 6.25rem;
+}
+
+.composant-generique-apropos {
+  margin-right: 3.125rem !important;
+  margin-left: 3.125rem !important;
+
+}
+
+.composant-carte-apropos {
+  padding-bottom: $padding-bottom;
+}
+
+.Bas-Page-text {
+  background-color: #007bffd1;
+  padding-top: $padding-top;
+  padding-bottom: $padding-bottom;
+}
+
+.Bas-Page-img {
+  background-color: #6c757dba;
+  padding-top: $padding-top;
+  padding-bottom: $padding-bottom;
+}
+
+/* Propriété pour la page de connexion (FormulaireCreationCompte et Connexion) */
+
+.formulaire-connexion {
+  padding-top: $padding-top;
+  padding-bottom: $padding-bottom;
+}
+
+.formulaire-compte {
+  padding-top: $padding-top;
+  padding-bottom: $padding-bottom;
+}
+
+.page-connexion {
+
+  padding-left: 20% !important;
+}
+

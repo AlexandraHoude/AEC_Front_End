@@ -1,0 +1,19 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.SiteBody {
+  padding: 2% 0 0 5%;
+}
+
+hr {
+  border-top: 0.0625rem dashed #8c8b8b;
+  border-bottom: 0.0625rem dashed #fff;
+}
+
+Button {
+  margin: 0.3125rem;
+}
+
+/*# sourceMappingURL=Admin.css.map */
